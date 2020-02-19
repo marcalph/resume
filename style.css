@@ -64,7 +64,6 @@ dl {
     flex-basis: 20%;
     padding: 2px 4px;
     text-align: right;
-    vertical-align: center;
   }
   dd {
     flex-basis: 70%;

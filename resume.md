@@ -22,8 +22,10 @@ FRANCE                                                            +33 6 62 62 62
 
 &nbsp;
 
-**![alt text](assets/cgi.png) 📣Lead data scientist 📆 2018 - aujourd'hui**  
-J'interviens essentiellement tant que spécialiste en NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie face à l'IA.
+**![CGI](assets/cgi.png) 📣Lead data scientist 📆 2018 - aujourd'hui**  
+&nbsp;
+
+Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie IA.
 
 
 Groupe MACIF 
@@ -42,15 +44,19 @@ Lab IA CGI
     * veille technologique
     * réimplémentation, réplication SOTA
 
+&nbsp; 
+
+**![MAIF](assets/maif.png) 📣Data scientist 📆 2014 - 2018**
+
+Data scientist dans un service de statistiques, puis détaché au Datalab, j'ai designé les modèles d'un certain nombre d'XPs et ai oeuvré à leur industrialisation.
+
+    * Téléphonie: prévision de la charge d'appels pour dimensionnement RH
+    * Valeur Sociétaire: modélisation de la rentalibité, LTV clients et prospects
+    * MAIF & Go: tarification d'une offre automobile connectée
+    * réimplémentation, réplication SOTA
 &nbsp;
 
-**![alt text](assets/maif.png) 📣Data scientist 📆 2014 - 2018**
-
-Also with a short description.
-
-&nbsp;
-
-**Université de Poitiers, IRIAF 📣chargé de TD Machine Learning 📆 2017, 2018**
+**![IRIAF](assets/maif.png) 📣chargé de TD Machine Learning 📆 2017, 2018**
 
 
 **MAPA**
@@ -98,7 +104,7 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
-### Formation
+### 🎓 Formation
 
 2013
 :   **master, statistiques appliquées**; Université de Poitiers
