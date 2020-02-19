@@ -4,7 +4,7 @@
 > ## Lead data scientist & Code enthusiast
 
 
-> Mes contributions couvrent la totalité du spectre d'un projet ML centric - du design à la production (en tant que tech lead notamment), en passant la communication pour accompagner les métiers aux changements dans leurs usages.  
+> Mes contributions couvrent la totalité du spectre d'un projet ML centric - du design à la production, en passant par la communication pour accompagner les métiers aux changements dans leurs usages.  
 > J'adore la combinaison de créativité et de théorie nécessaire dans le job.
 
 ------
@@ -28,7 +28,7 @@ Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fourn
 
 
 **Groupe MACIF** 
-:   Data scientist NLP
+:   **Data scientist NLP**
 
     * Hub IA: plateforme de services d'IA
     * Convergence: transformation de l'espace personnel vers un chatbot
@@ -36,7 +36,7 @@ Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fourn
     * RecoDoc: projet vision autour de la rad/lad
 
 **Lab IA CGI**
-: Lead Tech Data Science
+: **Lead Tech Data Science**
 
     * avant-vente, cadrage/gestion de projet
     * formations, présentations, conférences
@@ -63,37 +63,33 @@ Data scientist dans une direction métier, puis détaché au Datalab, j'ai desig
 
 ### 🚀Technical Experience
 **Projets**
-:   [cf. git](https://github.com/marcalph)
-
-    * Textsim: nlp, analyse de similarité textuelle, résumé automatique
-    * Count: comptage de population, density map
+:   **Textsim**: nlp, analyse de similarité textuelle, résumé automatique  
+    **Count**: comptage de population, density map
 
 &nbsp;
 
 **Skills**  
-:   Coding: `Python, Spark, R, SAS, rust`  
-    Basics: `UNIX, git, docker, HTML, CSS, SQL, Mongo`  
-    ML: `tf, torch, sklearn, NLP, Vision, Transfer Learning, Stacking, Boosting, RL`
-
-
+:   **Coding**: `Python, Spark, R, SAS, rust`  
+    **Basics**: `UNIX, git, docker, HTML, CSS, SQL, Mongo`  
+    **ML/DL**: `tf, torch, sklearn, NLP, Vision, Transfer Learning, Stacking, Boosting, RL`
 
 
 &nbsp;
 
 ### 🎓 Education
 
-2020
+**2020**
 :   **RPA Developer Foundation**; UIPath
 
-2017
+**2017**
 :   **Spécialisation Deep Learning**; Deeplearning.ai x Coursera
 
-2014
+**2014**
 :   **Machine Learning**; Stanford x Coursera  
     **Deep Learning**; Google x Udacity
 
-2013
+**2013**
 :   **Master, statistiques appliquées**; Université de Poitiers
 
-2010
+**2010**
 :   **Licence, mathématiques et informatique**; Université Paris V 
