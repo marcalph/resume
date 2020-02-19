@@ -18,7 +18,8 @@
   <![endif]-->
   <style type="text/css">
   /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   * Copyright 2019 Marc Alphonsus <marcalph@protonmail.com>
+   * inspired by Christophe-Marie Duquesne <chmd@chmd.fr>
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
    */
@@ -32,6 +33,14 @@
       padding: 10px 10px 10px 10px;
   }
 
+  hr {
+      height:0px;
+      border-radius: 2px;
+      color: teal;
+      color: $color;
+      border: 2px solid currentColor;
+      width: 60%;
+    }
 
   h1 {
       font-size: 55px;
@@ -39,20 +48,13 @@
       /* text-align:center; */
       margin-bottom:15px;
   }
-  /* h1:hover { */
-  /*     background-color: #757575; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
-
 
   h2 {
-      color: #397249;
+      color: #394e72;
   }
 
-
   h3 {
-      color: #397249;
+      color: #394e72;
   }
 
   /* There is a bar just before each category */
@@ -60,25 +62,31 @@
       content: "";
       display: inline-block;
       margin-right:1%;
+      margin-top:0%;
       width: 16%;
-      height: 10px;
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      height: 5px;
       background-color: #9CB770;
   }
 
+  img
+  {
+      width:30px;
+  }
 
   /* Definitions */
-  dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      font-weight: bold;
-  }
-
-  dd {
-      margin-left: 17%;
-      margin-bottom:7px;
-  }
+  dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    dt {
+      flex-basis: 20%;
+      padding: 2px 4px;
+      text-align: right;
+      vertical-align: center;
+    }
+    dd {
+      flex-basis: 70%;
+    }
 
   p {
       margin-top:0;
@@ -92,37 +100,43 @@
   /* Links */
   a {
       text-decoration: none;
-      color: #397249;
+      color: #a14abc;
   }
   a:hover, a:active {
-      background-color: #397249;
+      background-color: #a14abc;
       color: #FFFFFF;
       text-decoration: none;
       text-shadow: 1px 1px 1px #333;
   }
 
-  /* Horizontal separators */
-  hr {
-      color: #A6A6A6;
-  }
-
   table {
-      width: 100%;
+      margin:auto;
+      width: 85%;
   }
   </style>
 </head>
 <body>
+<blockquote>
 <h1 id="marc-alphonsus">Marc ALPHONSUS</h1>
-<h2 id="lead-data-science-code-enthusiast">Lead data science &amp; code enthusiast</h2>
+</blockquote>
+<blockquote>
+<h2 id="lead-data-scientist-code-enthusiast">Lead data scientist &amp; Code enthusiast</h2>
+</blockquote>
+<blockquote>
+<p>Mes contributions couvrent la totalité du spectre d’un projet ML centric - du code à la gestion de projet (en tant que tech lead notamment), en passant la communication pour accompagner les métiers aux changements dans leurs usages.<br />
+J’adore la combinaison de créativité et de théorie nécessaire dans le job.</p>
+</blockquote>
+<hr />
+<p> </p>
 <table>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">55b rue de RIBRAY</td>
+<td style="text-align: left;">55b rue de Ribray</td>
 <td style="text-align: right;">alphonsus.marc@gmail.com</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">79000 NIORT</td>
-<td style="text-align: right;"><a href="http://linkedin.com/in/marc-alphonsus">me@linkedin</a></td>
+<td style="text-align: left;">79000 Niort</td>
+<td style="text-align: right;"><a href="http://linkedin.com/in/marc-alphonsus">me@linkedin</a>, <a href="">me@github</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">FRANCE</td>
@@ -130,25 +144,34 @@
 </tr>
 </tbody>
 </table>
-<h3 id="formation">Formation</h3>
+<h3 id="experience">Experience</h3>
+<p> </p>
+<p><strong><img src="assets/cgi.png" alt="alt text" /> 📣Lead data scientist 📆 2018 - aujourd’hui</strong><br />
+J’interviens essentiellement tant que spécialiste en NLP - soit pour fournir des services des services d’IA à l’état de l’art; soit avec un peu plus de hauteur pour aider mes clients àconstruire</p>
 <dl>
-<dt>2013</dt>
-<dd><strong>master, statistiques appliquées</strong>; Université de Poitiers
+<dt>Groupe MACIF</dt>
+<dd><p>Data scientist NLP</p>
+<ul>
+<li>Hub IA: plateforme de services d’IA</li>
+<li>Convergence: transformation de l’espace personnel vers un chatbot</li>
+<li>NLP: production de modèle d’analyse sémantique multicanaux</li>
+<li>RecoDoc: projet vision autour de la rad/lad</li>
+</ul>
 </dd>
-<dt>2010</dt>
-<dd><strong>licence, mathémqtiques et informatique</strong>; Université Paris V
+<dt>CGI, LAB IA</dt>
+<dd><p>Lead Tech</p>
+<ul>
+<li>avant-vente, cadrage/gestion de projet</li>
+<li>formations, présentations, conférences</li>
+<li>veille technologique</li>
+<li>réimplémentation, réplication SOTA</li>
+</ul>
 </dd>
 </dl>
-<h3 id="experience">Experience</h3>
-<p><strong>CGI</strong></p>
-<p>Short text containing the type of work done, results obtained, lessons learned and other remarks. Can also include lists and links:</p>
-<ul>
-<li><p>First item</p></li>
-<li><p>Item with <a href="http://www.example.com">link</a>.</p></li>
-</ul>
-<p><strong>MAIF:</strong></p>
+<p> </p>
+<p><strong><img src="assets/maif.png" alt="alt text" /> 📣Data scientist 📆 2014 - 2018</strong></p>
 <p>Also with a short description.</p>
-<p><strong>Université de Poitiers</strong></p>
+<p><strong>Université de Poitiers, IRIAF 📣chargé d’enseignement 📆 2017, 2018</strong></p>
 <p><strong>MAPA</strong></p>
 <p><strong>CIC - Banque transatlantique</strong></p>
 <h3 id="technical-experience">Technical Experience</h3>
@@ -171,6 +194,15 @@
 <dd><p><strong>obscure-but-impressive-lang:</strong> We both know this one’s pushing it.</p>
 </dd>
 <dd><p>Basic knowledge of <strong>C</strong>, <strong>x86 assembly</strong>, <strong>forth</strong>, <strong>Common Lisp</strong></p>
+</dd>
+</dl>
+<h3 id="formation">Formation</h3>
+<dl>
+<dt>2013</dt>
+<dd><strong>master, statistiques appliquées</strong>; Université de Poitiers
+</dd>
+<dt>2010</dt>
+<dd><strong>licence, mathémqtiques et informatique</strong>; Université Paris V
 </dd>
 </dl>
 <h2 id="extra-section-call-it-whatever-you-want">Extra Section, Call it Whatever You Want</h2>

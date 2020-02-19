@@ -1,43 +1,57 @@
-Marc ALPHONSUS
-============
-## Lead data science & Code enthusiast
+> # Marc ALPHONSUS
+
+
+> ## Lead data scientist & Code enthusiast
+
+
+> Mes contributions couvrent la totalité du spectre d'un projet ML centric - du code à la gestion de projet (en tant que tech lead notamment), en passant la communication pour accompagner les métiers aux changements dans leurs usages.  
+> J'adore la combinaison de créativité et de théorie nécessaire dans le job.
+
+------
+
+&nbsp;
 
 -------------------        --------------------------------------------------------
-55b rue de RIBRAY                                          alphonsus.marc@gmail.com
-79000 NIORT                   [me\@linkedin](http://linkedin.com/in/marc-alphonsus)
+55b rue de Ribray                                          alphonsus.marc@gmail.com
+79000 Niort                   [me\@linkedin](http://linkedin.com/in/marc-alphonsus), [me\@github]()
 FRANCE                                                            +33 6 62 62 62 48
 -------------------        --------------------------------------------------------
-
-### Formation
-
-2013
-:   **master, statistiques appliquées**; Université de Poitiers
-
-2010
-:   **licence, mathémqtiques et informatique**; Université Paris V  
-  
-
 
 
 ### Experience
 
-**CGI**
+&nbsp;
+
+**![alt text](assets/cgi.png) 📣Lead data scientist 📆 2018 - aujourd'hui**  
+J'interviens essentiellement tant que spécialiste en NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie face à l'IA.
 
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Groupe MACIF 
+:   Data scientist NLP
 
-* First item
+    * Hub IA: plateforme de services d'IA
+    * Convergence: transformation de l'espace personnel vers un chatbot
+    * NLP: production de modèle d'analyse sémantique multicanaux
+    * RecoDoc: projet vision autour de la rad/lad
 
-* Item with [link](http://www.example.com). 
+Lab IA CGI
+: Lead Tech
 
-**MAIF:**
+    * avant-vente, cadrage/gestion de projet
+    * formations, présentations, conférences
+    * veille technologique
+    * réimplémentation, réplication SOTA
+
+&nbsp;
+
+**![alt text](assets/maif.png) 📣Data scientist 📆 2014 - 2018**
 
 Also with a short description.
 
+&nbsp;
 
-**Université de Poitiers**
+**Université de Poitiers, IRIAF 📣chargé de TD Machine Learning 📆 2017, 2018**
+
 
 **MAPA**
 
@@ -83,6 +97,15 @@ Programming Languages
 :   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
 
 [ref]: https://github.com/githubuser/superlongprojectname
+
+### Formation
+
+2013
+:   **master, statistiques appliquées**; Université de Poitiers
+
+2010
+:   **licence, mathémqtiques et informatique**; Université Paris V  
+
 
 Extra Section, Call it Whatever You Want
 ----------------------------------------
