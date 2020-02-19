@@ -26,17 +26,17 @@ hr {
 
 h1 {
     font-size: 55px;
-    color: #757575;
+    color: #5b5b5b;
     /* text-align:center; */
     margin-bottom:15px;
 }
 
 h2 {
-    color: #394e72;
+    color: #2a5091;
 }
 
 h3 {
-    color: #394e72;
+    color: #7e2a91;
 }
 
 /* There is a bar just before each category */
@@ -47,27 +47,26 @@ h3:before {
     margin-top:0%;
     width: 16%;
     height: 5px;
-    background-color: #9CB770;
+    background-color: #7e2a91;
 }
 
 img
 {
-    width:30px;
+    width:40px;
 }
 
 /* Definitions */
 dl {
     display: flex;
     flex-flow: row wrap;
-  }
-  dt {
-    flex-basis: 20%;
-    padding: 2px 4px;
+}
+dt {
+    flex-basis: 15%;
     text-align: right;
-  }
-  dd {
+}
+dd {
     flex-basis: 70%;
-  }
+}
 
 p {
     margin-top:0;
@@ -81,10 +80,10 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
-    color: #a14abc;
+    color: #891389;
 }
 a:hover, a:active {
-    background-color: #a14abc;
+    background-color: #891389;
     color: #FFFFFF;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;

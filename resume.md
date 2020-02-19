@@ -18,17 +18,17 @@ FRANCE                                                            +33 6 62 62 62
 -------------------        --------------------------------------------------------
 
 
-### Experience
+### 📈 Experience
 
 &nbsp;
 
-**![CGI](assets/cgi.png) 📣Lead data scientist 📆 2018 - aujourd'hui**  
+**![CGI](assets/cgi.png) 📆 2018 - 2020 📣Lead data scientist**  
 &nbsp;
 
 Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie IA.
 
 
-Groupe MACIF 
+**Groupe MACIF** 
 :   Data scientist NLP
 
     * Hub IA: plateforme de services d'IA
@@ -36,36 +36,31 @@ Groupe MACIF
     * NLP: production de modèle d'analyse sémantique multicanaux
     * RecoDoc: projet vision autour de la rad/lad
 
-Lab IA CGI
-: Lead Tech
+**Lab IA CGI**
+: Lead Tech Data Science
 
     * avant-vente, cadrage/gestion de projet
     * formations, présentations, conférences
     * veille technologique
     * réimplémentation, réplication SOTA
 
-&nbsp; 
-
-**![MAIF](assets/maif.png) 📣Data scientist 📆 2014 - 2018**
+**![MAIF](assets/maif.png) 📆 2014 - 2018 📣Data scientist**
 
 Data scientist dans un service de statistiques, puis détaché au Datalab, j'ai designé les modèles d'un certain nombre d'XPs et ai oeuvré à leur industrialisation.
 
-    * Téléphonie: prévision de la charge d'appels pour dimensionnement RH
-    * Valeur Sociétaire: modélisation de la rentalibité, LTV clients et prospects
-    * MAIF & Go: tarification d'une offre automobile connectée
-    * réimplémentation, réplication SOTA
-&nbsp;
-
-**![IRIAF](assets/maif.png) 📣chargé de TD Machine Learning 📆 2017, 2018**
+* Mail: analyse sémantique automatisé des e-mails, devenu le projet [Mélusine](https://github.com/MAIF/melusine)
+* MAIF & Go: tarification d'une offre automobile connectée
+* Valeur Sociétaire: modélisation de la rentalibité, LTV clients et prospects
+* Téléphonie: prévision de la charge d'appels pour dimensionnement RH
+* Détection d'anomalies: identification de risques sous-assurés
 
 
-**MAPA**
-
-**CIC - Banque transatlantique**
+**![IRIAF](assets/univ_poitiers.png) 📆 2017 - 2018 📣TD Machine Learning**  
+**![MAPA](assets/mapa.png) 📆 2013 - 2014 📣 Statisticien**
 
 
 
-### Technical Experience
+### 🚀 Technical Experience
 
 
 My Cool Side Project
@@ -104,7 +99,7 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
-### 🎓 Formation
+### 🎓 Formations
 
 2013
 :   **master, statistiques appliquées**; Université de Poitiers
