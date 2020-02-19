@@ -18,8 +18,7 @@ body {
 hr {
     height:0px;
     border-radius: 2px;
-    color: teal;
-    color: $color;
+    color: #2a5091;
     border: 2px solid currentColor;
     width: 60%;
   }
@@ -28,7 +27,6 @@ h1 {
     font-size: 55px;
     color: #5b5b5b;
     /* text-align:center; */
-    margin-bottom:15px;
 }
 
 h2 {
@@ -36,7 +34,7 @@ h2 {
 }
 
 h3 {
-    color: #7e2a91;
+    color: #2a5091;
 }
 
 /* There is a bar just before each category */
@@ -46,8 +44,9 @@ h3:before {
     margin-right:1%;
     margin-top:0%;
     width: 16%;
-    height: 5px;
-    background-color: #7e2a91;
+    border-radius: 2px;
+    border: 2px solid currentColor;
+    background-color: #2a5091;
 }
 
 img
@@ -59,6 +58,7 @@ img
 dl {
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
 }
 dt {
     flex-basis: 15%;
@@ -67,10 +67,11 @@ dt {
 dd {
     flex-basis: 70%;
 }
-
+ul {
+    margin-bottom: 0;
+}
 p {
-    margin-top:0;
-    margin-bottom:7px;
+    margin:auto;
 }
 
 blockquote {
@@ -82,6 +83,7 @@ a {
     text-decoration: none;
     color: #891389;
 }
+
 a:hover, a:active {
     background-color: #891389;
     color: #FFFFFF;
