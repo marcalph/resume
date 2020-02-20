@@ -5,7 +5,9 @@
  * This CSS document is delivered to you under the CC BY-SA 3.0 License.
  * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
-
+a img {
+    width:15px;
+}
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -29,8 +31,15 @@ h1 {
     /* text-align:center; */
 }
 
+blockquote h2{
+    color: #626262;
+    text-align: center;
+    font-size:2em;
+}
+
 h2 {
     color: #2a5091;
+    text-align: center;
 }
 
 h3 {
@@ -61,17 +70,21 @@ dl {
     margin: auto;
 }
 dt {
+    margin-top:10px;
     flex-basis: 15%;
     text-align: right;
 }
 dd {
     flex-basis: 70%;
+    margin-top:10px;
+
 }
 ul {
     margin-bottom: 0;
 }
 p {
     margin:auto;
+    margin-top:5px;
 }
 
 blockquote {

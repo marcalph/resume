@@ -1,7 +1,7 @@
-> # Marc ALPHONSUS
+> ## Marc ALPHONSUS
 
 
-> ## Lead data scientist & Code enthusiast
+## Lead data scientist & Code enthusiast
 
 
 > Mes contributions couvrent la totalité du spectre d'un projet ML centric - du design à la production, en passant par la communication pour accompagner les métiers aux changements dans leurs usages.  
@@ -13,7 +13,7 @@
 
 -------------------        --------------------------------------------------------
 55b rue de Ribray                                          alphonsus.marc@gmail.com
-79000 Niort                   [me\@linkedin](http://linkedin.com/in/marc-alphonsus), [me\@github](https://github.com/marcalph)
+79000 Niort                   [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus), [github![link](assets/github.png)](https://github.com/marcalph)
 FRANCE                                                            +33 6 62 62 62 48
 -------------------        --------------------------------------------------------
 
@@ -66,8 +66,6 @@ Data scientist dans une direction métier, puis détaché au Datalab, j'ai desig
 :   **Textsim**: nlp, analyse de similarité textuelle, résumé automatique  
     **Count**: comptage de population, density map
 
-&nbsp;
-
 **Skills**  
 :   **Coding**: `Python, Spark, R, SAS, rust`  
     **Basics**: `UNIX, git, docker, HTML, CSS, SQL, Mongo`  
@@ -76,7 +74,7 @@ Data scientist dans une direction métier, puis détaché au Datalab, j'ai desig
 
 &nbsp;
 
-### 🎓 Education
+### 🎓 Training
 
 **2020**
 :   **RPA Developer Foundation**; UIPath
