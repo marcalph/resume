@@ -5,6 +5,7 @@
 
 * value?
 * compatible with team goals?
+* current approach? quick & dirty baseline (KISS)? 
 * brainstroming?
 * right people?
 * right info?
@@ -14,7 +15,6 @@
 
 * who tech/contacts?
 * what is the current solution?
-* quick & dirty baseline?
 * code robustness
 * code transferability
 * validation
