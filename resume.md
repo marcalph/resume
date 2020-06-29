@@ -2,7 +2,7 @@
 
 ## Lead data scientist, code enthusiast
 
-> Mes contributions couvrent la totalité du spectre d'un produit ML centric. Mon domaine d'expertise tourne autour du traitement du langage et du Reinforcement Learning.
+> Mes contributions couvrent la totalité du spectre d'un produit ML centric. Mes domaines d'expertise tournent autour du traitement du langage et du Reinforcement Learning.
 > J'adore la combinaison de créativité et de théorie nécessaire dans le job. #StayHungry
 
 -------------------        --------------------------------------------------------
@@ -26,7 +26,7 @@ FRANCE                                                            +33 6 62 62 62
 
 #### CGI 🧢 Lead data scientist 📆 2018 - 2020
 
-Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie IA.
+Je suis intervenu essentiellement en tant que spécialiste du NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie data et IA.
 
 ##### Groupe MACIF : Data scientist NLP
 
@@ -50,7 +50,7 @@ Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fourn
 
 #### MAIF 🧢 Data scientist 📆 2014 - 2018
 
-Data scientist dans une direction métier, puis détaché au Datalab, j'ai designé les modèles d'un certain nombre d'XPs et oeuvré à leur industrialisation.
+Data scientist dans une direction métier, puis détaché au Datalab, j'ai conçu les modèles d'un certain nombre d'XPs et oeuvré à leur industrialisation.
 
 * Mail: analyse sémantique automatisé des e-mails, devenu le projet [Mélusine](https://github.com/MAIF/melusine)
 * MAIF & Go: tarification d'une offre automobile connectée, IoT
