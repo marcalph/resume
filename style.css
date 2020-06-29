@@ -49,6 +49,16 @@ h3 {
     margin-top: 0px;
 }
 
+h5 {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 10px;
+
+}
+
+
 /* There is a bar just before each category */
 /* h3:after {
     content: "";
@@ -102,7 +112,8 @@ p {
 }
 
 blockquote {
-    text-align: center
+    text-align: justify;
+    color: #484848;
 }
 
 /* Links */

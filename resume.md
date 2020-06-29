@@ -1,5 +1,10 @@
 > ## Marc ALPHONSUS
 
+## Lead data scientist, code enthusiast
+
+> Mes contributions couvrent la totalité du spectre d'un produit ML centric. Mon domaine d'expertise tourne autour du traitement du langage et du Reinforcement Learning.
+> J'adore la combinaison de créativité et de théorie nécessaire dans le job. #StayHungry
+
 -------------------        --------------------------------------------------------
 55b rue de Ribray                                          alphonsus.marc@gmail.com
 79000 Niort                   [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
@@ -7,10 +12,7 @@ FRANCE                                                            +33 6 62 62 62
 -------------------        --------------------------------------------------------
 
 
-## Lead data scientist, code enthusiast
 
-> Mes contributions couvrent la totalité du spectre d'un projet ML centric - du design à la production, en passant par la communication pour accompagner les métiers aux changements dans leurs usages.
-> Mon domaine d'expertise tourne autour du NLP et du Reinforcement Learning. J'adore la combinaison de créativité et de théorie nécessaire dans le job. 
 
 &nbsp;
 &nbsp;
@@ -22,7 +24,7 @@ FRANCE                                                            +33 6 62 62 62
 
 ### 📈 Experience
 
-#### CGI 📣 Lead data scientist 📆 2018 - 2020
+#### CGI 🧢 Lead data scientist 📆 2018 - 2020
 
 Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fournir des services des services d'IA à l'état de l'art; soit avec un peu plus de hauteur pour aider mes clients à construire leur stratégie IA.
 
@@ -46,7 +48,7 @@ Je suis intervenu essentiellement tant que spécialiste du NLP - soit pour fourn
 * veille technologique, réimplémentation SOTA
 
 
-#### MAIF 📣 Data scientist 📆 2014 - 2018
+#### MAIF 🧢 Data scientist 📆 2014 - 2018
 
 Data scientist dans une direction métier, puis détaché au Datalab, j'ai designé les modèles d'un certain nombre d'XPs et oeuvré à leur industrialisation.
 
@@ -57,8 +59,8 @@ Data scientist dans une direction métier, puis détaché au Datalab, j'ai desig
 * Détection d'anomalies: identification de risques sous-assurés
 
 
-#### IRIAF 📣 TD Machine Learning 📆 2017 - 2018
-#### MAPA 📣 Statisticien 📆 2013 - 2014
+#### IRIAF 🧢 TD Machine Learning 📆 2017 - 2018
+#### MAPA 🧢 Statisticien 📆 2013 - 2014
 &nbsp;
 &nbsp;
 
