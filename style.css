@@ -7,6 +7,7 @@
  */
 a img {
     width:15px;
+    margin-left:1%;
 }
 
 body {
@@ -19,10 +20,10 @@ body {
 
 hr {
     height:0px;
-    border-radius: 2px;
+    border-radius: 1px;
     color: #2a5091;
-    border: 2px solid currentColor;
-    width: 60%;
+    border: 1px solid currentColor;
+    width: 100%;
   }
 
 h1 {
@@ -44,18 +45,31 @@ h2 {
 
 h3 {
     color: #2a5091;
+    text-align: center;
+    margin-top: 0px;
 }
 
 /* There is a bar just before each category */
-h3:before {
+/* h3:after {
     content: "";
     display: inline-block;
-    margin-right:1%;
+    margin-left:2%;
     margin-top:0%;
-    width: 16%;
+    width: 50%;
     border-radius: 2px;
     border: 2px solid currentColor;
     background-color: #2a5091;
+}
+
+h3:before {
+    content: "";
+    display: inline-block;
+    margin-right:2%;
+    margin-top:0%;
+    width: 50%;
+    border-radius: 2px;
+    border: 2px solid currentColor;
+    background-color: #2a5091; */
 }
 
 img
