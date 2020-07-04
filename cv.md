@@ -2,7 +2,7 @@
 
 ## Lead data scientist, Code enthusiast
 
-> My skills revolves around NLP and reinforcement learning.
+> Mes contributions couvrent la totalité du spectre d'un produit ML centric. Mes domaines d'expertise tournent autour du traitement du langage et de l'apprentissage par renforcement.
 > J'adore la combinaison de créativité et de théorie nécessaire dans le job. #StayHungry
 
 -------------------        --------------------------------------------------------

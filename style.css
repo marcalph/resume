@@ -118,14 +118,14 @@ blockquote {
 
 /* Links */
 a {
-    text-decoration: none;
-    color: #891389;
+    text-decoration: underline;
+    color: #0aa6be;
 }
 
 a:hover, a:active {
-    background-color: #891389;
+    background-color: #133189;
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow: 1px 1px 1px #333;
 }
 
