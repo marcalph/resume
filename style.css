@@ -59,29 +59,6 @@ ul {
 }
 
 
-/* There is a bar just before each category */
-/* h3:after {
-    content: "";
-    display: inline-block;
-    margin-left:2%;
-    margin-top:0%;
-    width: 50%;
-    border-radius: 2px;
-    border: 2px solid currentColor;
-    background-color: #2a5091;
-}
-
-h3:before {
-    content: "";
-    display: inline-block;
-    margin-right:2%;
-    margin-top:0%;
-    width: 50%;
-    border-radius: 2px;
-    border: 2px solid currentColor;
-    background-color: #2a5091; */
-}
-
 img
 {
     width:40px;
@@ -119,15 +96,32 @@ blockquote {
 /* Links */
 a {
     text-decoration: underline;
-    color: #0aa6be;
+    color: #2a5091;
 }
 
 a:hover, a:active {
-    background-color: #133189;
+    background-color: #2a5091;
     color: #FFFFFF;
     text-decoration: underline;
     text-shadow: 1px 1px 1px #333;
 }
+
+
+code {
+    color: #b47921;
+}
+
+em {
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+li strong {
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
 
 table {
     margin:auto;
