@@ -45,6 +45,13 @@
       /* text-align:center; */
   }
   
+  blockquote{
+      color: #626262;
+      text-align: center;
+      font-size:1em;
+      margin:auto;
+  }
+  
   blockquote h2{
       color: #626262;
       text-align: center;
@@ -60,6 +67,10 @@
       color: #2a5091;
       text-align: center;
       margin-top: 0px;
+  }
+  
+  h4 {
+      font-size:1.2em;
   }
   
   h5 {
@@ -101,10 +112,7 @@
       margin-top:5px;
   }
   
-  blockquote {
-      text-align: justify;
-      color: #484848;
-  }
+  
   
   /* Links */
   a {
@@ -138,8 +146,14 @@
   
   table {
       margin:auto;
-      width: 85%;
+      width: 90%;
   }
+  
+  td{
+      text-align: justify;
+  }
+  
+  
   </style>
 </head>
 <body>
@@ -147,13 +161,16 @@
 <h2 id="marc-alphonsus">Marc ALPHONSUS</h2>
 </blockquote>
 <h2 id="data-scientist-7-ans-dxp">Data scientist, +7 ans d’XP</h2>
+<p>       </p>
 <blockquote>
-<p>Mes contributions couvrent la totalité du spectre d’un produit ML centric. Mes domaines d’expertise tournent autour du traitement du langage et de l’apprentissage par renforcement. J’adore la combinaison de créativité et de théorie nécessaire dans le job. #StayHungry</p>
+<p>J’ai eu la chance d’intervenir en tant que lead data scientist sur des sujets innovants du scoring à la détection de fraude, en passant par la reconnaissance d’image et la modélisation du langage. Confronté depuis quelques années à la philosophie devops, j’apporte une attention toute particulière à l’industrialisation des modèles.<br />
+Mes domaines d’expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l’apprentissage par renforcement. J’aime entraîner des réseaux de neurones complexes sur de gros volumes de données. J’adore la combinaison de créativité et de théorie nécessaire dans le job.</p>
 </blockquote>
+<p>       </p>
 <table>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">31 ans</td>
+<td style="text-align: left;">IDF, 31 ans</td>
 <td style="text-align: right;">alphonsus.marc@gmail.com</td>
 </tr>
 <tr class="even">
@@ -169,71 +186,85 @@
 <p>       </p>
 <hr />
 <h3 id="experience">📈 Experience</h3>
-<h4 id="cgi-lead-data-scientist-2018---2020">CGI 🧢 Lead data scientist 📆 2018 - 2020</h4>
-<p>Intervention auprès de différents clients assureurs et industriels en tant que spécialiste en data science - soit pour fournir des services d’IA à l’état de l’art; soit avec un peu plus de hauteur pour aider à construire et réaliser leur stratégie data.</p>
+<h4 id="cgi-grand-ouest-lead-data-science-2018---2020">CGI Grand Ouest 🧢 Lead Data Science 📆 2018 - 2020</h4>
+<blockquote>
+<p>Manager le lab en offrant une vitrine des savoirs-faire Data Science. Constuire et valoriser la stratégie IA des clients Grand Ouest.</p>
+</blockquote>
 <h5 id="macif">MACIF :</h5>
 <ul>
-<li>Macif NLP: <em>Création des briques de traitement de langage naturel pour le groupe (routage/classification, NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à </em><strong>94% sur 56 classes</strong> &gt; <code>tensorflow, spacy</code></li>
+<li>Macif NLP: <em>Création des briques de traitement de langage naturel pour le groupe (routage/classification, NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à </em> <strong>92% sur 56 classes</strong> &gt; <code>tensorflow, huggingface, spacy, docker</code></li>
 <li>Hub IA: <em>Exposition d’une plateforme de services d’IA sécurisée et monitorée utilisables par tous les salariés du groupe sous forme d’un catalogue d’API</em> &gt; <code>WSGI, API Gateway, docker</code></li>
-<li>AutoML Workflow : <em>Conception et mise à disposition d’un pipeline de réentraînement automatique des modèles en production alimenté grâce à une boucle de feedback des utilisateurs (active learning, multitask-learning)</em> &gt; <code>python, grafana, gitlab CI, docker</code></li>
-<li>RAD/LAD: * Mise en place d’un service automatique d’analyse de documents (classification automatique et OCR)* &gt; <code>pytorch, docker</code></li>
-<li>MeetUP: <em>Définition d’une stratégie data à l’échelle du département et évangélisation des concepts clés de la data science auprès des différentes direction du groupe</em> <code>OKR, Gslides</code></li>
+<li>AutoML Workflow : <em>Conception et mise à disposition d’un pipeline de réentraînement automatique des modèles en production alimenté grâce à une boucle de feedback des utilisateurs (active learning, multitask-learning)</em> &gt; <code>python, gitlab CI, docker</code></li>
+<li>RAD/LAD: <em>Mise en place d’un service automatique d’analyse de documents (classification automatique et OCR)</em> <strong>95% sur 80 classes</strong> &gt; <code>pytorch, docker</code></li>
+<li>MeetUP: <em>Définition d’une stratégie data à l’échelle du département et évangélisation des concepts clés de la data science auprès des différentes direction du groupe</em> <code>OKR, Gslides, Jupyter</code></li>
 <li>Chatbot EPI: <em>refonte l’UX de l’espace personnel internaute - la mise en place de l’IA a permis de tenir les objectifs clés de l’entreprise (délai de traitement d’une demande &lt;1 jour) avec une meilleure qualification du besoin grâce à un moteur de (extraction du produit, du bénéficiaire, etc)</em> &gt; <code>tensorflow, spacy, rasa</code></li>
 </ul>
 <h5 id="ima-intermutuelles-assistance">IMA (InterMutuelles Assistance) :</h5>
 <ul>
-<li>IA Assistance Augmentée</li>
-<li>NER (<code>Transformers</code>), ASR/STT (<code>wav2letter, deepspeech</code>)</li>
+<li>Assistance Augmentée: <em>PoC d’une IA d’assistance téléphonique - Combinaison d’un modèle d’ASR/STT et de modèles de traitements du langages (NER, CLassification, Similarité) pour assister et accélérer l’assistance lors des pannes et accidents de la route</em>;<br />
+<em>Process mis en place : Géolocalisation du client, compréhension de la panne à partir de la description du client, délégation d’un dépanneur/fourniture de service (taxi, hôtel…) et envoi d’un SMS récapitulatif</em> &gt; <code>pytorch, Go , docker</code></li>
 </ul>
-<h5 id="lab-ia">Lab IA :</h5>
-<p>Direction du datalab de l’agence</p>
+<h5 id="cgi---lab-ia">CGI - Lab IA :</h5>
 <ul>
-<li>management et tutorat/formation de collaborateurs, conférences et vulgarisation</li>
-<li>avant-vente, cadrage/gestion de projet</li>
-<li>veille technologique/learning days</li>
+<li>Management et mentorat de collaborateurs, conférences et vulgarisation</li>
+<li>Avant-vente, cadrage/gestion de projet</li>
+<li>Veille technologique etlearning days</li>
 </ul>
 <h4 id="maif-data-scientist-2014---2018">MAIF 🧢 Data scientist 📆 2014 - 2018</h4>
-<p>Data scientist dans une direction métier, puis détaché au Datalab, j’ai conçu les modèles d’un certain nombre d’XPs et oeuvré à leur industrialisation.</p>
+<blockquote>
+<p>Apporter aux départements porteurs de projets, l’expertise nécessaire en apprentissage statistique et concevoir des outisl au service du sociétaire.</p>
+</blockquote>
 <ul>
-<li>Mail: analyse sémantique automatisé des e-mails, devenu le projet <a href="https://github.com/MAIF/melusine">Mélusine</a></li>
-<li>MAIF &amp; Go: tarification d’une offre automobile connectée, IoT</li>
-<li>Valeur Sociétaire: modélisation de la rentalibité, LTV clients et prospects</li>
-<li>Téléphonie: prévision de la charge d’appels pour dimensionnement RH</li>
-<li>Détection d’anomalies: identification de risques sous-assurés (fraude/devoir de conseil)</li>
+<li>Mail: <em>Routage automatisé des e-mails et résumé automatique, devenu</em> <a href="https://github.com/MAIF/melusine">Mélusine</a> <em>; design de l’architecture des réseaux neuronaux et des algorithmes de résumés extractifs</em> &gt; <code>tensorfow, scikit-learn, docker</code></li>
+<li>MAIF &amp; Go: <em>Tarification d’une offre automobile connectée basée sur des comportements de conduite remontées via capteurs GPS (IoT)</em> &gt; <code>R, caret</code></li>
+<li>Valeur Sociétaire: <em>Modélisation de la rentalibité des clients et prospects à horizon long (LTV)</em> &gt; <code>pySpark, Hadoop Map/Reduce</code></li>
+<li>Téléphonie: <em>Prévision de la charge d’appels pour dimensionnement RH des plateaux téléphoniques</em> <strong>taux d’erreur à 5%, proposition de publication</strong> &gt; <code>R, caret</code></li>
+<li>Détection d’anomalies: <em>Identification de risques sous-assurés (fraude &amp; devoir de conseil)</em> &gt; <code>scikit-learn</code></li>
 </ul>
-<h4 id="iriaf-chargé-de-td-machine-learning-2017---2018">IRIAF 🧢 Chargé de TD Machine Learning 📆 2017 - 2018</h4>
+<h4 id="iriaf-chargé-de-td-machine-learning-2017---2019">IRIAF 🧢 Chargé de TD Machine Learning 📆 2017 - 2019</h4>
+<blockquote>
+<p>Initier des étudiants à l’apprentissage machine, au programme: théorie de la décision, régression logistique, SVM, CART, forêts aléatoires et réseaux de neurones.</p>
+</blockquote>
 <h4 id="mapa-statisticien-2013---2014">MAPA 🧢 Statisticien 📆 2013 - 2014</h4>
-<p>   </p>
+<blockquote>
+<p>Concevoir et réaliser des études visant à expliquer et corriger les dérives tarifaires du portefeuille, l’élasticité au prix des sociétaires et les résultats financiers.    </p>
+</blockquote>
 <hr />
-<h3 id="technical-experience">🚀 Technical Experience</h3>
+<h3 id="technical-experience-skills">🚀 Technical Experience &amp; Skills</h3>
 <dl>
 <dt><strong>Projets</strong></dt>
 <dd><strong>Text</strong>: Mes snippets autour du NLP, suivi de l’état de l’art, analyse de similarité textuelle, résumé automatique<br />
 <strong>Count</strong>: comptage de population, density map
 </dd>
-<dt><strong>Skills</strong></dt>
-<dd><strong>Languages</strong>: <code>Python, R, SAS, Go</code><br />
-<strong>Other Languages</strong>: <code>English, Français, Deutsch</code><br />
-<strong>Machine Learning Frameworks</strong>: <code>tensorflow, pytorch, scikit-learn, opengym, Spark</code><br />
-<strong>SW Basics</strong>: <code>UNIX, algorithms, git, docker, redis, mongo, SQL</code>
-</dd>
 </dl>
+<p><strong>Languages</strong>: <code>Python, R, SAS, Go</code><br />
+<strong>Human Languages</strong>: <code>English, Français, Deutsch</code><br />
+<strong>Machine Learning Frameworks</strong>: <code>tensorflow, pytorch, scikit-learn, Apache Spark, opengym</code><br />
+<strong>Cloud Providers</strong>: <code>AWS, Google Cloud Platform</code><br />
+<strong>Software Basics</strong>: <code>UNIX, algorithms, git, docker, redis, MongoDB, SQL</code></p>
 <p>   </p>
 <hr />
-<h3 id="training">🎓 Training</h3>
+<h3 id="formal-training-courses">🎓 Formal Training &amp; Courses</h3>
 <dl>
+<dt><strong>2019</strong></dt>
+<dd><strong>Spinning up Reinforcement Learning</strong>; OpenAI<br />
+<strong>6.S094</strong>; MIT
+</dd>
+<dt><strong>2018</strong></dt>
+<dd><strong>CS224n, CS229, CS231n</strong>; Stanford University
+</dd>
 <dt><strong>2017</strong></dt>
-<dd><strong>Spécialisation Deep Learning</strong>; Deeplearning.ai x Coursera
+<dd><strong>Deep Learning Specialization</strong>; Deeplearning.ai x Coursera
 </dd>
 <dt><strong>2014</strong></dt>
-<dd><strong>Machine Learning</strong>; Stanford x Coursera<br />
+<dd><strong>Machine Learning</strong>; Stanford University x Coursera<br />
 <strong>Deep Learning</strong>; Google x Udacity
 </dd>
 <dt><strong>2013</strong></dt>
-<dd><strong>Master, statistiques appliquées</strong>; Université de Poitiers
+<dd><strong>Master, Statistiques Appliquées</strong>; Université de Poitiers
 </dd>
 <dt><strong>2010</strong></dt>
-<dd><strong>Licence, mathématiques et informatique</strong>; Université Paris V
+<dd><strong>Licence, Mathématiques Informatique et Applications</strong>; Université Paris V
 </dd>
 </dl>
 </body>

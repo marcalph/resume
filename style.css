@@ -32,6 +32,13 @@ h1 {
     /* text-align:center; */
 }
 
+blockquote{
+    color: #626262;
+    text-align: center;
+    font-size:1em;
+    margin:auto;
+}
+
 blockquote h2{
     color: #626262;
     text-align: center;
@@ -47,6 +54,10 @@ h3 {
     color: #2a5091;
     text-align: center;
     margin-top: 0px;
+}
+
+h4 {
+    font-size:1.2em;
 }
 
 h5 {
@@ -88,10 +99,7 @@ p {
     margin-top:5px;
 }
 
-blockquote {
-    text-align: justify;
-    color: #484848;
-}
+
 
 /* Links */
 a {
@@ -125,6 +133,12 @@ li strong {
 
 table {
     margin:auto;
-    width: 85%;
+    width: 90%;
 }
+
+td{
+    text-align: justify;
+}
+
+
 </style>
