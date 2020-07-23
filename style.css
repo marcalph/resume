@@ -24,6 +24,7 @@ hr {
     color: #2a5091;
     border: 1px solid currentColor;
     width: 100%;
+    margin-top:3%
   }
 
 h1 {
@@ -58,6 +59,7 @@ h3 {
 
 h4 {
     font-size:1.2em;
+    margin-top:5%
 }
 
 h5 {

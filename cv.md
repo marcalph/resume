@@ -1,25 +1,19 @@
 > ## Marc ALPHONSUS
 
-## Data scientist, +7 ans d'XP
+## Data Science Lead, +8 ans d'XP
+
+
+&nbsp;
+&nbsp;
+
+> Data scientist senior avec un large portefeuille d'expérience; du scoring à la détection de fraude, en passant par la reconnaissance d'image et la modélisation du langage dans des contxete big data. Je recherche un poste de lead tech laissant la part belle à la technique. Habitué au travail en équipe, versé à la philosophie devops, j'apporte une attention toute particulière à l'industrialisation et l'automatisation des modèles.  
+> Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement. J'adore la combinaison de créativité et de théorie nécessaire dans le job.  
 
 
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
-
-
-
-> J'ai eu la chance d'intervenir en tant que lead data scientist sur des sujets innovants du scoring à la détection de fraude, en passant par la reconnaissance d'image et la modélisation du langage. Confronté depuis quelques années à la philosophie devops, j'apporte une attention toute particulière à l'industrialisation des modèles.  
-> Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement. J'aime entraîner des réseaux de neurones complexes sur de gros volumes de données. J'adore la combinaison de créativité et de théorie nécessaire dans le job.  
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
 
 
 ---------------------                             ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -27,7 +21,6 @@ IDF, 31 ans                                                                     
 Permis A, B                                       [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
 nationalité Française                                                                                                                                                          +33 6 62 62 62 48
 ---------------------                             ----------------------------------------------------------------------------------------------------------------------------------------------
-
 
 
 &nbsp;
@@ -40,7 +33,7 @@ nationalité Française                                                         
 
 ### 📈 Experience
 
-#### CGI Grand Ouest 🧢 Lead Data Science 📆 2018 - 2020
+#### CGI 🧢 Lead Data Science 📆 2018 - 2020
 
 > Manager le lab en offrant une vitrine des savoirs-faire Data Science. Constuire et valoriser la stratégie IA des clients Grand Ouest.
 
@@ -59,7 +52,7 @@ nationalité Française                                                         
 * Assistance Augmentée: *PoC d'une IA d'assistance téléphonique - Combinaison d'un modèle d'ASR/STT et de modèles de traitements du langages (NER, CLassification, Similarité) pour assister et accélérer l'assistance lors des pannes et accidents de la route*;  
 *Process mis en place : Géolocalisation du client, compréhension de la panne à partir de la description du client, délégation d'un dépanneur/fourniture de service (taxi, hôtel...) et envoi d'un SMS récapitulatif* > `pytorch, Go , docker`
 
-##### CGI - Lab IA :
+##### CGI - Lab IA Grand Ouest :
 
 * Management et mentorat de collaborateurs, conférences et vulgarisation
 * Avant-vente, cadrage/gestion de projet
@@ -83,31 +76,32 @@ nationalité Française                                                         
 
 #### MAPA 🧢 Statisticien 📆 2013 - 2014
 
-> Concevoir et réaliser des études visant à expliquer et corriger les dérives tarifaires du portefeuille, l'élasticité au prix des sociétaires et les résultats financiers.
+> Concevoir et réaliser des études visant à expliquer et corriger les dérives tarifaires du portefeuille, l'élasticité au prix des sociétaires et les résultats financiers.  
+
 &nbsp;
 &nbsp;
 
 ------
 
 ### 🚀 Technical Experience & Skills
-**Projets**
-:   **Text**: Mes snippets autour du NLP, suivi de l'état de l'art, analyse de similarité textuelle, résumé automatique  
-    **Count**: comptage de population, density map
+**Projets choisis**
+:   **TextNets**: Mes projets autour du NLP, réplications d'articles, analyse de similarité textuelle, résumé automatique, traduction, search...  
+    **DeepCount**: dénombrement sur image fortement peuplées, estimation par density map
 
 
 
 **Languages**: `Python, R, SAS, Go`  
-**Human Languages**: `English, Français, Deutsch`  
-**Machine Learning Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, opengym`  
-**Cloud Providers**: `AWS, Google Cloud Platform`  
-**Software Basics**: `UNIX, algorithms, git, docker, redis, MongoDB, SQL`  
+**Langues**: `English, Français, Deutsch`  
+**Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, opengym`  
+**Cloud**: `AWS, Google Cloud Platform`  
+**Basics**: `UNIX, algorithms, git, docker, redis, MongoDB, SQL`  
 
 &nbsp;
 &nbsp;
 
 ------
 
-### 🎓 Formal Training & Courses
+### 🎓 Formal Training & MOOCs
 
 **2019**
 :   **Spinning up Reinforcement Learning**; OpenAI  
