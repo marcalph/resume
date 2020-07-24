@@ -6,7 +6,7 @@
 &nbsp;
 &nbsp;
 
-> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes big data. Je recherche un poste de lead tech data. Versé au travail en équipe, imprégné de la philosophie devops, j'apporte une attention toute particulière à l'industrialisation et l'automatisation des modèles.  
+> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes big data. Je recherche un poste de lead tech data. Versé au travail en équipe, imprégné de la philosophie devops, j'apporte beaucoup d'attention à l'industrialisation et l'automatisation des modèles.  
 > Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement.
 
 
@@ -90,10 +90,17 @@ Permis A, B                                                                     
     **DeepCount**: dénombrement sur image fortement peuplées, estimation par density map  
 
 
+&nbsp;
+&nbsp;
+
 **Hackathons**
 :   **Hackathon IMA 2019**: Première place - Hackathon data  
     **AfLPC x LineUp7**: Seconde place - Tech For Good
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 **Languages**: `Python, R, SAS, Go`  
 **Langues**: `English, Français, Deutsch`  
