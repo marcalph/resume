@@ -1,12 +1,12 @@
 > ## Marc ALPHONSUS
 
-## Data Science Lead, +8 ans d'XP
+## Data Science, +8 ans d'XP
 
 
 &nbsp;
 &nbsp;
 
-> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes big data. Je recherche un poste de lead tech data. Versé au travail en équipe, imprégné de la philosophie devops, j'apporte beaucoup d'attention à l'industrialisation et l'automatisation des modèles.  
+> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes big data. Je recherche un poste de lead tech data ou data scientist senior. Versé au travail en équipe, imprégné de la philosophie devops, j'apporte beaucoup d'attention à l'industrialisation et l'automatisation des modèles.  
 > Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement.
 
 
@@ -39,9 +39,9 @@ Permis A, B                                                                     
 
 ##### MACIF :
 
-* Macif NLP: *Création des modèle de traitement des fulx textuels texte pour le groupe (routage/classification, extraction d'entités - i.e. NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à * **92% sur 56 classes** > `tensorflow, huggingface, spacy, docker`
+* Macif NLP: *Création des modèles de traitement des flux texte pour le groupe (routage/classification, extraction d'entités - i.e. NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à * **92% sur 56 classes** > `tensorflow, huggingface, spacy, docker`
 * Hub IA: *Exposition d'une plateforme de modèles d'IA sécurisée et monitorée utilisables par tous les salariés du groupe sous forme d'un catalogue swagger d'API* > `WSGI, API Gateway, docker`
-* AutoML Workflow : *Conception d'un pipeline de réentraînement automatique des modèles en production - Les modèles sont auto-alimentés grâce à une boucle de feedback des utilisateurs et réentrainés de manière sontannée mensuellement (active learning, multitask-learning)* > `python, gitlab CI, docker `
+* AutoML Workflow : *Conception d'un pipeline de réentraînement automatique des modèles en production - Les modèles sont auto-alimentés grâce à une boucle de feedback des utilisateurs et réentrainés de manière spontannée mensuellement (active learning, multitask-learning)* > `python, gitlab CI, docker `
 * RAD/LAD: *Mise en place d'un service automatique d'analyse de documents (classification automatique et OCR) avant GED* **95% sur 80 classes** > `pytorch, docker`
 * MeetUP:  *Définition d'une stratégie data à l'échelle du département et évangélisation des concepts clés de la data science auprès des différentes directions du groupe* `OKR, Gslides, Jupyter`
 * Chatbot EPI: *refonte l'UX de l'espace personnel internaute - la mise en place de l'IA a permis de tenir les objectifs clés de l'entreprise (délai de traitement d'une demande <1 jour) avec une meilleure qualification du besoin (extraction du produit, du bénéficiaire, etc)* > `tensorflow, spacy, rasa`

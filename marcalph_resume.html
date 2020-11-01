@@ -37,12 +37,20 @@
       color: #2a5091;
       border: 1px solid currentColor;
       width: 100%;
+      margin-top:3%
     }
   
   h1 {
       font-size: 55px;
       color: #5b5b5b;
       /* text-align:center; */
+  }
+  
+  blockquote{
+      color: #626262;
+      text-align: center;
+      font-size:1em;
+      margin:auto;
   }
   
   blockquote h2{
@@ -62,6 +70,11 @@
       margin-top: 0px;
   }
   
+  h4 {
+      font-size:1.2em;
+      margin-top:5%
+  }
+  
   h5 {
       margin-bottom: 10px;
   }
@@ -71,29 +84,6 @@
   
   }
   
-  
-  /* There is a bar just before each category */
-  /* h3:after {
-      content: "";
-      display: inline-block;
-      margin-left:2%;
-      margin-top:0%;
-      width: 50%;
-      border-radius: 2px;
-      border: 2px solid currentColor;
-      background-color: #2a5091;
-  }
-  
-  h3:before {
-      content: "";
-      display: inline-block;
-      margin-right:2%;
-      margin-top:0%;
-      width: 50%;
-      border-radius: 2px;
-      border: 2px solid currentColor;
-      background-color: #2a5091; */
-  }
   
   img
   {
@@ -124,118 +114,168 @@
       margin-top:5px;
   }
   
-  blockquote {
-      text-align: justify;
-      color: #484848;
-  }
+  
   
   /* Links */
   a {
       text-decoration: underline;
-      color: #0aa6be;
+      color: #2a5091;
   }
   
   a:hover, a:active {
-      background-color: #133189;
+      background-color: #2a5091;
       color: #FFFFFF;
       text-decoration: underline;
       text-shadow: 1px 1px 1px #333;
   }
   
+  
+  code {
+      color: #b47921;
+  }
+  
+  em {
+      font-style: normal;
+      font-size: 0.9em;
+  }
+  
+  li strong {
+      font-style: normal;
+      font-size: 0.9em;
+  }
+  
+  
+  
   table {
       margin:auto;
-      width: 85%;
+      width: 90%;
   }
+  
+  td{
+      text-align: justify;
+  }
+  
+  
   </style>
 </head>
 <body>
 <blockquote>
 <h2 id="marc-alphonsus">Marc ALPHONSUS</h2>
 </blockquote>
-<h2 id="lead-data-scientist-code-enthusiast">Lead data scientist, Code enthusiast</h2>
+<h2 id="machine-learning-engineer-8-years-of-experience">Machine Learning Engineer, 8+ years of experience</h2>
+<p> </p>
 <blockquote>
-<p>My skills revolves around NLP and reinforcement learning. J’adore la combinaison de créativité et de théorie nécessaire dans le job. #StayHungry</p>
+<p>Senior data scientist with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile and data driven environments. I’m looking for either a Tech Lead role in a team of Data Scientists or a senior Data Scientist position. About me : I am a product-oriented data nerd with a teamplayer mindset infused to the devops philosophy, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.<br />
+If any, my expertise revolves aroung Deep Learning in particular NLP and reinforcement learning. Also I love code, kaggle, coffee and comics (order may vary).</p>
 </blockquote>
+<p>   </p>
 <table>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">55b rue de Ribray</td>
+<td style="text-align: left;">Niort, France</td>
 <td style="text-align: right;">alphonsus.marc@gmail.com</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">79000 Niort</td>
+<td style="text-align: left;">31 ans, french</td>
 <td style="text-align: right;"><a href="http://linkedin.com/in/marc-alphonsus">linkedin<img src="assets/linkedin.png" alt="link" /></a> / <a href="https://github.com/marcalph">github<img src="assets/github.png" alt="link" /></a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">FRANCE</td>
+<td style="text-align: left;">Car and motorcycle driving licenses.</td>
 <td style="text-align: right;">+33 6 62 62 62 48</td>
 </tr>
 </tbody>
 </table>
-<p>       </p>
 <hr />
 <h3 id="experience">📈 Experience</h3>
-<h4 id="cgi-lead-data-scientist-2018---2020">CGI 🧢 Lead data scientist 📆 2018 - 2020</h4>
-<p>Je suis intervenu essentiellement en tant que spécialiste du NLP - soit pour fournir des services des services d’IA à l’état de l’art; soit avec un peu plus de hauteur pour aider mes clients à construire et réaliser leur stratégie data et IA.</p>
-<h5 id="groupe-macif-data-scientist-nlp">Groupe MACIF : Data scientist NLP</h5>
+<h4 id="cgi-lead-data-scientist-2018---2020">CGI 🧢 Lead Data Scientist 📆 2018 - 2020</h4>
+<blockquote>
+<p>Manage the AI lab agency while offering a window to our projects and skills Machine Learning wise. Define and build the data strategy of my clients.</p>
+</blockquote>
+<h5 id="macif">MACIF :</h5>
 <ul>
-<li>Hub IA: plateforme de services d’IA et stratégie (<code>API, data ops</code>)</li>
-<li>Chatbot: implémentation d’une IA conversationnelle pour refondre l’UX de l’espace personnel internaute (<code>IA level 3</code>)</li>
-<li>NLP: refonte de modèles d’analyse sémantique (<code>Transformers, CNN</code>)</li>
-<li>RAD/LAD: projet vision autour de la reconaissance de documents (<code>EfficientNet</code>)</li>
+<li>Macif NLP: <em>created models for all Macif’s textual content (routing/classification, named entity recognition, sentiment analysis)- bumped up the performance from 85% over 3 classes to </em> <strong>92% over 56 classes</strong> &gt; <code>Tensorflow, Huggingface, spacy, docker</code></li>
+<li>Hub IA: <em>built the group’s AI services platform, monitored and secure, as a swagger API catalog callable by every employee</em> &gt; <code>WSGI, Flask, FastAPI, Docker, Kubernetes</code></li>
+<li>AutoML Workflow : <em>assembled an automatic AI retrain pipeline (similar to <code>MLFlow</code>) - Models are being automaticly retrained with new incoming data fed thanks to an users feedback loop (active learning, multitask-learning)</em> &gt; <code>python, gitlab CI, Docker</code></li>
+<li>RAD/LAD: <em>constructed a service for analyzing documents (classification &amp; OCR) before storage</em> <strong>95% over 80 classes</strong> &gt; <code>pytorch, Docker</code></li>
+<li>MeetUps: <em>defined the Data strategy at the departement level &amp; AI evangelization for the whole company</em> <code>OKR, Gslides, Jupyter, Streamlit</code></li>
+<li>Chatbot EPI: <em>redesinged the UX of the online member space (4.3 M users) - the deployment of AI models allowed to meet key objectives while modernizing the overall architecture</em> &gt; <code>Tensorflow, spacy, rasa</code></li>
 </ul>
-<h5 id="ima-data-scientist-nlp">IMA : Data scientist NLP</h5>
+<h5 id="ima-intermutuelles-assistance">IMA (InterMutuelles Assistance) :</h5>
 <ul>
-<li>IA Assistance Augmentée</li>
-<li>NER (<code>Transformers</code>), ASR/STT (<code>wav2letter, deepspeech</code>)</li>
+<li>Assist+: <em>PoC for a AI phone assistant - combined ASR/STT and various NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents</em>;<br />
+</li>
+<li>Process : Speech transcription, vehicle identification, geolocalization, failure understanding from client’s description, services (motor mechanic, taxi, hotel…) &amp; SMS recap &gt; <code>pytorch, Go, docker</code></li>
 </ul>
-<h5 id="lab-ia-lead-tech">Lab IA : Lead Tech</h5>
+<h5 id="cgi---ai-lab">CGI - AI Lab :</h5>
 <ul>
-<li>avant-vente, cadrage/gestion de projet</li>
-<li>management et tutorat, formations de collaborateurs, conférences et vulgarisation</li>
-<li>veille technologique, réimplémentation</li>
+<li>Project management &amp; mentoring</li>
+<li>SOTA and technological monitoring</li>
+<li>Conferences, ELI5</li>
 </ul>
 <h4 id="maif-data-scientist-2014---2018">MAIF 🧢 Data scientist 📆 2014 - 2018</h4>
-<p>Data scientist dans une direction métier, puis détaché au Datalab, j’ai conçu les modèles d’un certain nombre d’XPs et oeuvré à leur industrialisation.</p>
+<blockquote>
+<p>Bring to the various Departments funding the corresponding data projects the required expertise in statistical learning while conceiving the future tools to serve the MAIF members.</p>
+</blockquote>
 <ul>
-<li>Mail: analyse sémantique automatisé des e-mails, devenu le projet <a href="https://github.com/MAIF/melusine">Mélusine</a></li>
-<li>MAIF &amp; Go: tarification d’une offre automobile connectée, IoT</li>
-<li>Valeur Sociétaire: modélisation de la rentalibité, LTV clients et prospects</li>
-<li>Téléphonie: prévision de la charge d’appels pour dimensionnement RH</li>
-<li>Détection d’anomalies: identification de risques sous-assurés (fraude/devoir de conseil)</li>
+<li>Mail: <em>Automatic routing of e-mails &amp; summarization, open sourced as</em> <a href="https://github.com/MAIF/melusine">Mélusine</a> <em>; design of neural architectures and extractives summarization algorithms</em> &gt; <code>tensorfow, pySpark, scikit-learn, docker</code></li>
+<li>MAIF &amp; Go: <em>Claim pricing based on driving behaviours obtained by GPS trackers (IoT beacon &amp; mobile app)</em> &gt; <code>pySpark, R, caret</code></li>
+<li>Valeur Sociétaire: * Modeling of expected rentability for customers on a large temporal horizon (LifeTime Value)* &gt; <code>pySpark, Hadoop Map/Reduce</code></li>
+<li>Téléphonie: <em>Predict the phonecall load to correctly size call centers HR wise</em> <strong>5% error, publication proposal</strong> &gt; <code>R, caret</code></li>
+<li>risk: <em>Identity under-insured risks</em> &gt; <code>scikit-learn</code></li>
 </ul>
-<h4 id="iriaf-td-machine-learning-2017---2018">IRIAF 🧢 TD Machine Learning 📆 2017 - 2018</h4>
-<h4 id="mapa-statisticien-2013---2014">MAPA 🧢 Statisticien 📆 2013 - 2014</h4>
-<p>   </p>
+<h4 id="université-de-poitiers-machine-learning-ta-2017---2019">Université de Poitiers 🧢 Machine Learning TA 📆 2017 - 2019</h4>
+<blockquote>
+<p>Introduce grad students to machine learning</p>
+</blockquote>
+<ul>
+<li>Syllabus: decision theory, regression, SVM, CART, random forests, MLP and convolutionnal neural networks.</li>
+</ul>
+<h4 id="mapa-statistician-2013---2014">MAPA 🧢 Statistician 📆 2013 - 2014</h4>
+<blockquote>
+<p>Analyze and explain pricing drifts, price elasticity and financial performance.</p>
+</blockquote>
+<p> </p>
 <hr />
-<h3 id="technical-experience">🚀 Technical Experience</h3>
+<h3 id="hard-skills-and-extracurriculum">🚀 Hard Skills and Extracurriculum</h3>
 <dl>
-<dt><strong>Projets</strong></dt>
-<dd><strong>Text</strong>: Mes snippets autour du NLP, suivi de l’état de l’art, analyse de similarité textuelle, résumé automatique<br />
-<strong>Count</strong>: comptage de population, density map
+<dt><strong>Chosen projects</strong></dt>
+<dd><strong>TextNets/text</strong>: My own models and tests regarding SOTA NLP, paper replication, open source model training, semantic similarity, automatic summarization, transduction, search…<br />
+<strong>DeepCount</strong>: Crowd counting with density mapping on highly populated images (think football game)
 </dd>
-<dt><strong>Skills</strong></dt>
-<dd><strong>Coding</strong>: <code>Python, Spark, R, SAS, Go</code><br />
-<strong>Basics</strong>: <code>UNIX, git, docker, etc.</code><br />
-<strong>ML/DL</strong>: <code>tf, torch, sklearn, opengym</code>
+<dt><strong>Hackathons</strong></dt>
+<dd><strong>Hackathon IMA 2019</strong>: First place - Hackathon data<br />
+<strong>AfLPC x LineUp7</strong>: Second place - Tech For Good
 </dd>
 </dl>
+<p> </p>
+<p><strong>Languages</strong>: <code>Python, R, Go, SAS</code><br />
+<strong>Spoken Languages</strong>: <code>English, Français, Deutsch</code><br />
+<strong>Frameworks</strong>: <code>pytorch, tensorflow, scikit-learn, Apache Spark, opengym</code><br />
+<strong>Cloud</strong>: <code>AWS, GCP</code><br />
+<strong>Basics</strong>: <code>UNIX, algorithms, git, gitlab-ci, Docker, redis, MongoDB, SQL</code></p>
 <p>   </p>
 <hr />
-<h3 id="training">🎓 Training</h3>
+<h3 id="degrees-courses">🎓 Degrees &amp; Courses</h3>
 <dl>
+<dt><strong>2020</strong></dt>
+<dd><strong>Spinning up Reinforcement Learning</strong>; OpenAI<br />
+<strong>6.S094</strong>; MIT
+</dd>
+<dt><strong>2018</strong></dt>
+<dd><strong>CS224n, CS229, CS231n</strong>; Stanford University
+</dd>
 <dt><strong>2017</strong></dt>
-<dd><strong>Spécialisation Deep Learning</strong>; Deeplearning.ai x Coursera
+<dd><strong>Deep Learning Specialization</strong>; Deeplearning.ai x Coursera
 </dd>
 <dt><strong>2014</strong></dt>
-<dd><strong>Machine Learning</strong>; Stanford x Coursera<br />
+<dd><strong>Machine Learning</strong>; Stanford University x Coursera<br />
 <strong>Deep Learning</strong>; Google x Udacity
 </dd>
 <dt><strong>2013</strong></dt>
-<dd><strong>Master, statistiques appliquées</strong>; Université de Poitiers
+<dd><strong>MSc, Statistics</strong>; Université de Poitiers
 </dd>
 <dt><strong>2010</strong></dt>
-<dd><strong>Licence, mathématiques et informatique</strong>; Université Paris V
+<dd><strong>Bachelor, Mathematics and Computer Science</strong>; Université Paris V
 </dd>
 </dl>
 </body>
