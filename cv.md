@@ -6,8 +6,10 @@
 &nbsp;
 &nbsp;
 
-> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes big data. Je recherche un poste de lead tech data ou data scientist senior. Versé au travail en équipe, imprégné de la philosophie devops, j'apporte beaucoup d'attention à l'industrialisation et l'automatisation des modèles.  
-> Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement.
+> Data scientist senior avec un large éventail d'expériences; du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes agile et/ou big data. Je recherche un poste de lead tech data ou data scientist senior. A propos de moi : je suis un nerd avec un mindset produit et le goût du travail en équipe.
+Ce qui me plaît le plus dans le job? Le niveau de créativité et d'abstraction nécessaires du design du modèle à sa mise en production.  
+> Mes domaines d'expertise tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement. Also, j'aime coder, kaggle, le café et les comics (l'ordre est susceptible de varier).  
+
 
 
 &nbsp;
@@ -18,7 +20,7 @@
 
 -----------------------------                                  -----------------------------------------------------------------------------------------------------------------------------------------------
 Niort, Nouvelle Aquitaine                                                                                                                                                             alphonsus.marc@gmail.com
-31 ans, nationalité Française                                  [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
+32 ans, nationalité Française                                  [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
 Permis A, B                                                                                                                                                                                  +33 6 62 62 62 48
 -----------------------------                                   ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,7 +42,7 @@ Permis A, B                                                                     
 ##### MACIF :
 
 * Macif NLP: *Création des modèles de traitement des flux texte pour le groupe (routage/classification, extraction d'entités - i.e. NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à * **92% sur 56 classes** > `tensorflow, huggingface, spacy, docker`
-* Hub IA: *Exposition d'une plateforme de modèles d'IA sécurisée et monitorée utilisables par tous les salariés du groupe sous forme d'un catalogue swagger d'API* > `WSGI, API Gateway, docker`
+* Hub IA: *Exposition d'une plateforme centralisée de modèles d'IA sécurisée et monitorée utilisables par tous les salariés du groupe sous forme d'un catalogue swagger d'API* > `WSGI, API Gateway, docker`
 * AutoML Workflow : *Conception d'un pipeline de réentraînement automatique des modèles en production - Les modèles sont auto-alimentés grâce à une boucle de feedback des utilisateurs et réentrainés de manière spontannée mensuellement (active learning, multitask-learning)* > `python, gitlab CI, docker `
 * RAD/LAD: *Mise en place d'un service automatique d'analyse de documents (classification automatique et OCR) avant GED* **95% sur 80 classes** > `pytorch, docker`
 * MeetUP:  *Définition d'une stratégie data à l'échelle du département et évangélisation des concepts clés de la data science auprès des différentes directions du groupe* `OKR, Gslides, Jupyter`
@@ -93,9 +95,9 @@ Permis A, B                                                                     
 &nbsp;
 &nbsp;
 
-**Hackathons**
-:   **Hackathon IMA 2019**: Première place - Hackathon data  
-    **AfLPC x LineUp7**: Seconde place - Tech For Good
+**Competitions**
+:   **Hackathon IMA**: top 1 - Hackathon data  
+    **AfLPC x LineUp7**: top 2 - Tech For Good
 
 &nbsp;
 &nbsp;
@@ -103,8 +105,8 @@ Permis A, B                                                                     
 &nbsp;
 
 **Languages**: `Python, R, SAS, Go`  
-**Langues**: `English, Français, Deutsch`  
-**Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, opengym`  
+**Langues**: `English, Français, Deutsch, 日本語 (notions)`  
+**Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, Hadoop, opengym`  
 **Cloud**: `AWS, Google Cloud Platform`  
 **Basics**: `UNIX, algorithms, git, docker, redis, MongoDB, SQL`  
 
