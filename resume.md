@@ -22,7 +22,7 @@ Car and motorcycle driving licenses.                                            
 
 ### 📈 Experience
 
-#### CGI 🧢 Lead Data Scientist 📆 2018 - 2020
+#### CGI 🧢 😁Lead Data Scientist 📆 2018 - 2020
 
 > Manage the AI lab agency while offering a window to our projects and skills Machine Learning wise. Define and build the data strategy of my clients.
 
@@ -73,7 +73,7 @@ Car and motorcycle driving licenses.                                            
 
 ------
 
-### 🚀 Hard Skills and Extracurriculum
+### 🔨imag Hard Skills and Extracurriculum
 **Chosen projects**
 :   **TextNets/text**: My own models and tests regarding SOTA NLP, paper replication, open source model training, semantic similarity, automatic summarization, transduction, search...  
     **DeepCount**: Crowd counting with density mapping on highly populated images (think football game)  
@@ -96,7 +96,7 @@ Car and motorcycle driving licenses.                                            
 
 ------
 
-### 🎓 Degrees & Courses
+### 🎓 Degrees & Courses 🎓
 
 **2020**
 :   **Spinning up Reinforcement Learning**; OpenAI  

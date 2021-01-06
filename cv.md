@@ -33,9 +33,9 @@ Permis A, B                                                                     
 ------
 
 
-### 📈 Expérience
+### ![dchart](assets/downward_chart.png) Expérience ![uchart](assets/upward_chart.png)
 
-#### CGI 🧢 Lead Data Science 📆 2018 - 2020
+#### CGI ![cap](assets/cap.png) Lead Data Science ![calendar](assets/calendar.png) 2018 - 2020
 
 > Manager le lab IA CGI en offrant une vitrine des savoirs-faire Data Science. Constuire et valoriser la stratégie IA des clients Grand Ouest.
 
@@ -62,7 +62,7 @@ Permis A, B                                                                     
 * Conférences et vulgarisation
 
 
-#### MAIF 🧢 Data scientist 📆 2014 - 2018
+#### MAIF ![cap](assets/cap.png) Data scientist ![calendar](assets/calendar.png) 2014 - 2018
 
 > Apporter aux départements porteurs de projets, l'expertise nécessaire en apprentissage statistique et concevoir des outils de demain au service du sociétaire.
 
@@ -73,11 +73,11 @@ Permis A, B                                                                     
 * Détection d'anomalies: *Identification de risques sous-assurés (fraude & devoir de conseil)* > `scikit-learn`
 
 
-#### IRIAF 🧢 Chargé de TD Machine Learning 📆 2017 - 2019
+#### IRIAF ![cap](assets/cap.png) Chargé de TD Machine Learning ![calendar](assets/calendar.png) 2017 - 2019
 
 > Initier des étudiants à l'apprentissage automatique - programme: théorie de la décision, régression logistique, SVM, CART, forêts aléatoires et réseaux de neurones simples et convolutionnels.  
 
-#### MAPA 🧢 Statisticien 📆 2013 - 2014
+#### MAPA ![cap](assets/cap.png) Statisticien ![calendar](assets/calendar.png) 2013 - 2014
 
 > Concevoir et réaliser des études visant à expliquer et corriger les dérives tarifaires du portefeuille, l'élasticité au prix des sociétaires et les résultats financiers.  
 
@@ -86,7 +86,7 @@ Permis A, B                                                                     
 
 ------
 
-### 🚀 Compétences techniques et expériences extra-professionnelles
+### ![hammer](assets/hammer.png) Hard skills & extra curriculum ![screwdriver](assets/screwdriver.png)
 **Projets choisis**
 :   **TextNets**: Mes modèles autour du NLP, réplications d'articles, analyse de similarité textuelle, résumé automatique, traduction, search...  
     **DeepCount**: dénombrement sur image fortement peuplées, estimation par density map  
@@ -95,7 +95,7 @@ Permis A, B                                                                     
 &nbsp;
 &nbsp;
 
-**Competitions**
+**Compétitions**
 :   **Hackathon IMA**: top 1 - Hackathon data  
     **AfLPC x LineUp7**: top 2 - Tech For Good
 
@@ -104,7 +104,7 @@ Permis A, B                                                                     
 &nbsp;
 &nbsp;
 
-**Languages**: `Python, R, SAS, Go`  
+**Langages**: `Python, R, SAS, Go`  
 **Langues**: `English, Français, Deutsch, 日本語 (notions)`  
 **Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, Hadoop, opengym`  
 **Cloud**: `AWS, Google Cloud Platform`  
@@ -115,7 +115,7 @@ Permis A, B                                                                     
 
 ------
 
-### 🎓 Diplômes & MOOCs
+###  ![graduation_cap](assets/graduation_cap.png) Diplômes & MOOCs ![book](assets/book.png)
 
 **2019**
 :   **Spinning up Reinforcement Learning**; OpenAI  
