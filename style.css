@@ -41,10 +41,12 @@ blockquote{
 }
 
 h6  {
-    color: #626262;
+    color: #2a5091;
+    margin:auto;
+    width: 100%;
+    margin-top: 1em;
     text-align: center;
     font-size:1em;
-    margin:auto;
 }
 
 blockquote h2{

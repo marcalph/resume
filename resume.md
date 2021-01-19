@@ -8,7 +8,8 @@
 > Senior data scientist with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language  modeling in agile and data driven environments. I'm looking for either a Tech Lead role in a team of Data Scientists or a senior Data Scientist position. About me : I am a product-oriented data nerd with a teamplayer mindset infused to the devops philosophy, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.  
 > If any, my expertise revolves aroung Deep Learning in particular NLP and reinforcement learning. Also I love code, kaggle, coffee and comics (order may vary).
   
-###### #NLP #activelearning #image #eli5 #rl #federatedlearning
+  
+###### #NLP #activelearning #CV #eli5 #RL #federatedlearning
 
 
 &nbsp;
@@ -84,8 +85,8 @@ Car and motorcycle driving licenses.                                            
 
 
 **Hackathons**
-:   **Hackathon IMA**: top 1  
-    **AfLPC x LineUp7**: top 2
+:   **Hackathon IMA**: top 1, 8000$  
+    **AfLPC x LineUp7**: top 2, #dataforgood
 
 &nbsp;
 
@@ -93,7 +94,7 @@ Car and motorcycle driving licenses.                                            
 **Spoken Languages**: `English, Français, Deutsch, 日本語 (notions)`  
 **Frameworks**: `pytorch, tensorflow, scikit-learn, Apache Spark, Hadoop, opengym`  
 **Cloud**: `AWS, GCP`  
-**Basics**: `UNIX, algorithms, git, gitlab-ci, Docker, redis, MongoDB, SQL`  
+**Basics**: `UNIX, algorithms, git, gitlab-ci, Docker, Kubernetes, redis, MongoDB, SQL`  
 
 &nbsp;
 &nbsp;

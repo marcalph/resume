@@ -9,10 +9,10 @@
 > Data scientist senior avec un portfolio allant du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes agile et/ou big data. Je recherche un poste de lead tech data ou data scientist senior. A propos de moi : je suis un data nerd orienté produit infusé à la philosophie devops et ayant le goût du travail en équipe.
 Ce qui me plaît le plus dans le job? La créativité et le niveau d'abstraction nécessaires pour le design de modèles et leur industrialisation.  
 > Mes domaines de prédilections tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement. Aussi, j'aime coder, kaggle, le café et les comics (l'ordre est susceptible de varier).  
-
-
+  
+  
       
-###### #NLP #activelearning #image #eli5 #rl #federatedlearning
+###### #NLP #activelearning #CV #eli5 #RL #federated
 
 
 
@@ -63,7 +63,7 @@ Permis A, B                                                                     
 
 * Management et mentorat de collaborateurs
 * Avant-vente, cadrage/gestion de projet
-* Veille technologique et mise en palce des learning days
+* Veille technologique et mise en place des learning days
 * Conférences et vulgarisation
 
 
@@ -101,8 +101,8 @@ Permis A, B                                                                     
 &nbsp;
 
 **Compétitions**
-:   **Hackathon IMA**: top 1 
-    **AfLPC x LineUp7**: top 2
+:   **Hackathon IMA**: top 1, 8000€  
+    **AfLPC x LineUp7**: top 2, #dataforgood
 
 &nbsp;
 &nbsp;
@@ -113,7 +113,7 @@ Permis A, B                                                                     
 **Langues**: `English, Français, Deutsch, 日本語 (notions)`  
 **Frameworks**: `tensorflow, pytorch, scikit-learn, Apache Spark, Hadoop, opengym`  
 **Cloud**: `AWS, GCP`  
-**Basics**: `UNIX, algorithms, git, docker, redis, MongoDB, SQL`  
+**Basics**: `UNIX, algorithms, git, docker, Kubernetes, redis, MongoDB, SQL`  
 
 &nbsp;
 &nbsp;
