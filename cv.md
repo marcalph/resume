@@ -6,7 +6,7 @@
 &nbsp;
 &nbsp;
 
-> Data scientist senior avec un portfolio allant du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes agile et/ou big data. Je recherche un poste de lead tech data ou data scientist senior. A propos de moi : je suis un data nerd orienté produit infusé à la philosophie devops et ayant le goût du travail en équipe.
+> Data scientist senior avec un portfolio allant du scoring à la détection de fraude, en passant par la reconnaissance d'images et la modélisation du langage dans des contextes agile et big data. Je recherche un poste de lead tech data ou data scientist senior. A propos de moi : je suis un data nerd orienté produit infusé à la philosophie devops et ayant le goût du travail en équipe.
 Ce qui me plaît le plus dans le job? La créativité et le niveau d'abstraction nécessaires pour le design de modèles et leur industrialisation.  
 > Mes domaines de prédilections tournent autour du Deep Learning en particulier le traitement du langage naturel et l'apprentissage par renforcement. Aussi, j'aime coder, kaggle, le café et les comics (l'ordre est susceptible de varier).  
   
@@ -39,18 +39,18 @@ Permis A, B                                                                     
 
 ### ![dchart](assets/downward_chart.png) Expérience ![uchart](assets/upward_chart.png)
 
-#### CGI ![cap](assets/cap.png) Lead Data Science ![calendar](assets/calendar.png) 2018 - 2021
+#### CGI ![cap](assets/cap.png) Lead ML engineer ![calendar](assets/calendar.png) 2018 - 2021
 
 > Manager le lab IA CGI en offrant une vitrine des savoirs-faire Data Science. Constuire et valoriser la stratégie IA des clients Grand Ouest.
   
 ##### IMA :
 
-* Assistance Augmentée: *PoC d'une IA d'assistance téléphonique - Combinaison d'un modèle d'ASR/STT et de modèles de traitements du langages (NER, CLassification, Similarité) pour assister et accélérer l'assistance lors des pannes et accidents de la route*;  
-*Process mis en place : Retranscription de la conversation, identification du véhicule, géolocalisation du client, compréhension de la panne à partir de la description du client, délégation d'un dépanneur/fourniture de service (taxi, hôtel...) et envoi d'un SMS récapitulatif* > `pytorch, Go , docker`
+* DeepCall: *IA d'assistance téléphonique - Combinaison d'un modèle d'ASR/STT et de modèles de traitements du langages (NER, CLassification, Similarité) pour assister et accélérer l'assistance lors des pannes et accidents de la route*;  
+*Process mis en place : Identification de la langue parlée, retranscription automatique de la conversation, extraction d'informations, APIs, géolocalisation du client, délégation d'un dépanneur/fourniture de service (taxi, hôtel...) et envoi d'un SMS récapitulatif* > `pytorch, keras, Go, docker`
   
 ##### MACIF :
 
-* Macif NLP: *Création des modèles de traitement des flux texte pour le groupe (routage/classification, extraction d'entités - i.e. NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à* **92% sur 56 classes** > `tensorflow, huggingface transformers, spacy, docker`
+* Macif NLP: *Création des modèles de traitement des flux texte pour le groupe (routage/classification, extraction d'entités - i.e. NER, analyse du sentiment)- amélioration de la performance de 85% sur 3 classes à* **92% sur 56 classes** > `tensorflow, transformers, spacy, docker`
 * Hub IA: *Exposition d'une plateforme centralisée de modèles d'IA sécurisée et monitorée utilisables par tous les salariés du groupe sous forme d'un catalogue swagger d'API *#mlops* > `WSGI, API Gateway, docker`
 * AutoML Workflow : *Conception d'un pipeline de réentraînement automatique des modèles en production - Les modèles sont auto-alimentés grâce à une boucle de feedback des utilisateurs et réentrainés de manière spontannée mensuellement (active learning, multitask-learning)* > `python, gitlab CI, docker `
 * RAD/LAD: *Mise en place d'un service automatique d'analyse de documents (classification automatique et OCR) avant GED* **95% sur 80 classes** > `pytorch, docker`
@@ -92,17 +92,18 @@ Permis A, B                                                                     
 ------
 
 ### ![tools](assets/tools.png) Hard skills & extra curriculum ![gear](assets/gear.png)
+**Compétitions**
+:   **Magnet Driven Data x NOAA x NASA**: top 20 (700 teams, 2021) #timeseries  
+    **Hackathon AfLPC x LineUp7**: top 2 (20 teams, 2020) #data4good  
+    **Hackathon IMA**: top 1 (30 teams, 2019)  #audio  
+
+
+&nbsp;
+&nbsp;
+
 **Projets choisis**
 :   **TextNets**: Mes modèles autour du NLP, réplications d'articles, analyse de similarité textuelle, résumé automatique, traduction, search...  
-    **DeepCount**: dénombrement sur image fortement peuplées, estimation par density map  
-
-
-&nbsp;
-&nbsp;
-
-**Compétitions**
-:   **Hackathon IMA**: top 1, 8000€  
-    **AfLPC x LineUp7**: top 2, #dataforgood
+    **DeepCount**: Dénombrement sur image fortement peuplées, estimation par density map  
 
 &nbsp;
 &nbsp;
