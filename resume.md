@@ -1,13 +1,13 @@
 > ## Marc ALPHONSUS
 
-## Lead/Senior Machine Learning Engineer,  9+ years of experience
+## Senior Machine Learning Engineer,  10+ years of experience
 
 
 &nbsp;
 
 > Senior data scientist with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile teams. I'm looking lead/senior position in a mutlticultural and data driven environment.
 > About me : I am a product-oriented nerd with a teamplayer mindset infused to the devops philosophy, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.
-> If any, my expertise revolves aroung Deep Learning in particular NLP. Also I love to code, coffee and comics (order may vary).
+>  Also I love to code, coffee and comics (order may vary).
 
 
 ###### #NLP #activelearning #CV #federatedlearning
@@ -17,8 +17,8 @@
 &nbsp;
 
 -----------------------------                                  -----------------------------------------------------------------------------------------------------------------------------------------------
-Niort, France                                                                                                                                                                                alphonsus.marc@gmail.com
-33 years, french                                                 [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
+Paris, France                                                                                                                                                                                alphonsus.marc@gmail.com
+35 years, french                                                 [linkedin![link](assets/linkedin.png)](http://linkedin.com/in/marc-alphonsus) / [github![link](assets/github.png)](https://github.com/marcalph)
 Car and motorcycle driving licenses.                                                                                                                                                         +33 6 62 62 62 48
 -----------------------------                                   ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,33 +28,40 @@ Car and motorcycle driving licenses.                                            
 
 #### CGI ![cap](assets/cap.png) Lead Data Scientist ![calendar](assets/calendar.png) 2018 - 2021
 
-> Manage the AI lab agency while offering a window to our projects and skills Machine Learning wise. Define and build the data strategy of my clients.
+> Acting as AI Manager for the agency while contributing to various client projects.
 
-##### IMA :
+
+
+
+
+
+
+##### IMA - Data Scientist Consultant:
 
 * Assist+: *PoC for a AI phone assistant - combined ASR/STT and various NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents*;
+* Vision: work
 * Process : Speech transcription, vehicle identification, geolocalization, failure understanding from client's description, services (motor mechanic, taxi, hotel...) & SMS recap > `pytorch, Go, docker`
 
 
-##### MACIF :
+##### MACIF - Deep Learning Engineer Consultant:
 
-* Macif NLP: *created models for all Macif's textual content (routing/classification, named entity recognition, sentiment analysis)- bumped up the performance from 85% over 3 classes to * **92% over 56 classes** > `Tensorflow, Huggingface transformers, spacy, docker`
-* Hub IA: *built the group's AI services platform, monitored and secure, as a swagger API catalog callable by every employee* > `WSGI, Flask, FastAPI, Docker, Kubernetes`
-* AutoML Workflow : *assembled an automatic AI retrain pipeline (similar to `MLFlow`) - Models are being automaticly retrained with new incoming data fed thanks to an users feedback loop (active learning, multitask-learning)* > `python, gitlab CI, Docker`
-* RAD/LAD: *constructed a service for analyzing documents (classification & OCR) before storage* **95% over 80 classes** > `pytorch, Docker`
-* MeetUps:  *defined the Data strategy at the departement level & AI evangelization for the whole company* `OKR, Gslides, Jupyter, Streamlit`
-* Chatbot EPI: *redesinged the UX of the online member space (4.3 M users) - the deployment of AI models allowed to meet key objectives while modernizing the overall architecture* > `Tensorflow, spacy, rasa`
-
+* NLP: created models for all of the company's text data (routing/classification, named entity recognition, sentiment analysis), served in a chatbot-like fashion
+* Vision: worked on OCR for compliance (identity and claim provision)
+* Misc.: 
+    - build an API gateway for all NLP services in the company, serving models to 4.3M monthly users 
+    - build an automatic retraining and evaluation pipeline for modelsusing an online user's feedback loop (active learning, multitask-learning)
+    - running the AI reading group
+stack: `python, docker, k8s, Azure`
 
 #### MAIF ![cap](assets/cap.png) Data scientist ![calendar](assets/calendar.png) 2014 - 2018
 
-> Bring to the various Departments funding the corresponding data projects the required expertise in statistical learning while conceiving the future tools to serve the MAIF members.
+> Bring to the various departments the required expertise in statistical learning while conceiving the future tools to serve the MAIF ecosystem.
 
-* Mail: *Automatic routing of e-mails & summarization, open sourced as* [Mélusine](https://github.com/MAIF/melusine) *; design of neural architectures and extractives summarization algorithms* > `tensorfow, pySpark, scikit-learn, docker`
-* MAIF & Go: *Claim pricing based on driving behaviours obtained by GPS trackers (IoT beacon & mobile app)* > `pySpark, R, caret`
-* Valeur Sociétaire: * Modeling of expected rentability for customers on a large temporal horizon (LifeTime Value)* > `pySpark, Hadoop Map/Reduce`
-* Téléphonie: *Predict the phonecall load to correctly size call centers HR wise* **5% error, publication proposal** > `R, caret`
-* risk: *Identity under-insured risks* > `scikit-learn`
+* NLP: designed a multi-modal language model for email classification, summarization and automatic answering, later open sourced as part of `Mélusine`
+* Vision: help identifiy under-insurance asset based on satellite data
+* Misc: various work on predicting load for call centers (based on tabular data), premium pricing (based on GNSS data), predicting financial rentability of a portfolio (tabular data) 
+* Misc.: running the AI reading group
+stack: `python, R, pySpark, docker, k8s, Azure`
 
 
 #### Poitiers University ![cap](assets/cap.png) Machine Learning TA ![calendar](assets/calendar.png) 2017 - 2019
@@ -73,22 +80,17 @@ Car and motorcycle driving licenses.                                            
 
 ### ![tools](assets/tools.png) Hard skills & extra curriculum ![gear](assets/gear.png)
 
-**Chosen projects**
-:   **TextNets/text**: My own models and tests regarding SOTA NLP, paper replication, open source model training, semantic similarity, automatic summarization, transduction, search...
-    **DeepCount**: Crowd counting with density mapping on highly populated images (think football game)
-
-
 **Hackathons**
 :   **Hackathon IMA**: top 1, 8000$
     **AfLPC x LineUp7**: top 2, #dataforgood
 
 &nbsp;
 
-**Languages**: `Python, R, Go, SAS`
-**Spoken Languages**: `English, Français, Deutsch, 日本語 (notions)`
-**Frameworks**: `pytorch, tensorflow, Apache Spark, opengym`
+**Languages**: `Python, R, rust, SAS`
+**Spoken Languages**: `English, Français, Deutsch (notions), 日本語 (notions)`
+**Frameworks**: `pytorch, tensorflow, Apache Spark`
 **Cloud**: `AWS, Azure`
-**Basics**: `linux, git, Kubernetes, redis, MongoDB, SQL`
+**Basics**: `linux, git, redis, MongoDB, SQL`
 **Ops**: `k8s, nomad, ansible`
 
 &nbsp;
@@ -98,18 +100,8 @@ Car and motorcycle driving licenses.                                            
 
 ###  ![book](assets/book.png) Education & Training ![graduation_cap](assets/graduation_cap.png)
 
-**2020**
-:   **Spinning up Reinforcement Learning**; OpenAI
-
-**2018**
-:   **CS224n, CS229, CS231n**; Stanford University
-
 **2017**
 :   **Deep Learning Specialization**; Deeplearning.ai x Coursera
-
-**2014**
-:   **Machine Learning**; Stanford University x Coursera
-    **Deep Learning**; Google x Udacity
 
 **2013**
 :   **MSc, Statistics**; Université de Poitiers
