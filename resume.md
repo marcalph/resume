@@ -5,12 +5,12 @@
 
 &nbsp;
 
-> Senior data scientist with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile teams. I'm looking lead/senior position in a mutlticultural and data driven environment.
-> About me : I am a product-oriented nerd with a teamplayer mindset infused to the devops philosophy, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.
+> Senior ML engineer with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile teams. I'm looking lead/senior position in a mutlticultural and data driven environment.
+> About me : I am a product-oriented nerd with a teamplayer mindset, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.
 >  Also I love to code, coffee and comics (order may vary).
 
 
-###### #NLP #activelearning #CV #federatedlearning
+###### #NLP #CV #federatedlearning
 
 
 &nbsp;
@@ -26,42 +26,51 @@ Car and motorcycle driving licenses.                                            
 
 ### ![dchart](assets/downward_chart.png) Experience ![uchart](assets/upward_chart.png)
 
-#### CGI ![cap](assets/cap.png) Lead Data Scientist ![calendar](assets/calendar.png) 2018 - 2021
+
+
+#### Jus Mundi
+
+
+
+
+
+#### CGI ![cap](assets/cap.png) Data Scientist Consultant ![calendar](assets/calendar.png) 2018 - 2021
 
 > Acting as AI Manager for the agency while contributing to various client projects.
 
+##### Airbus - Deep Learning Engineer Consultant:
 
-
-
-
+* NLP: Review contracts
 
 
 ##### IMA - Data Scientist Consultant:
 
-* Assist+: *PoC for a AI phone assistant - combined ASR/STT and various NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents*;
-* Vision: work
-* Process : Speech transcription, vehicle identification, geolocalization, failure understanding from client's description, services (motor mechanic, taxi, hotel...) & SMS recap > `pytorch, Go, docker`
+* NLP, Speech: combined ASR/STT to various in-house NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents;
+* Vision: worked on vehicle classification and cost of repair estimation
+stack: `python, go, docker`
 
 
 ##### MACIF - Deep Learning Engineer Consultant:
 
-* NLP: created models for all of the company's text data (routing/classification, named entity recognition, sentiment analysis), served in a chatbot-like fashion
+* NLP: created models for all of the company's text data (routing/classification, named entity recognition, sentiment analysis), served in a chatbot-like fashion to over 4.3M users monthly
 * Vision: worked on OCR for compliance (identity and claim provision)
 * Misc.: 
-    - build an API gateway for all NLP services in the company, serving models to 4.3M monthly users 
+    - build an API gateway for all NLP services in the company
     - build an automatic retraining and evaluation pipeline for modelsusing an online user's feedback loop (active learning, multitask-learning)
     - running the AI reading group
-stack: `python, docker, k8s, Azure`
+stack: `python, docker, k8s, azure`
 
 #### MAIF ![cap](assets/cap.png) Data scientist ![calendar](assets/calendar.png) 2014 - 2018
 
 > Bring to the various departments the required expertise in statistical learning while conceiving the future tools to serve the MAIF ecosystem.
 
 * NLP: designed a multi-modal language model for email classification, summarization and automatic answering, later open sourced as part of `Mélusine`
-* Vision: help identifiy under-insurance asset based on satellite data
-* Misc: various work on predicting load for call centers (based on tabular data), premium pricing (based on GNSS data), predicting financial rentability of a portfolio (tabular data) 
-* Misc.: running the AI reading group
-stack: `python, R, pySpark, docker, k8s, Azure`
+* Vision: improved models to identifiy under-insured assets based on satellite data
+* TimeSeries: various work on predicting load for call centers, predicting financial rentability of a portfolio
+* Misc.:  
+    - premium pricing (based on GNSS data)
+    - running the AI reading group
+stack: `python, R, pySpark, docker, k8s, azure`
 
 
 #### Poitiers University ![cap](assets/cap.png) Machine Learning TA ![calendar](assets/calendar.png) 2017 - 2019
@@ -81,8 +90,11 @@ stack: `python, R, pySpark, docker, k8s, Azure`
 ### ![tools](assets/tools.png) Hard skills & extra curriculum ![gear](assets/gear.png)
 
 **Hackathons**
-:   **Hackathon IMA**: top 1, 8000$
-    **AfLPC x LineUp7**: top 2, #dataforgood
+:   **Hackathon IMA**: top 1, NLP, Vision
+    **AfLPC x LineUp7**: top 2, Vision
+    **MagNet**: top 4%, Time Series
+
+
 
 &nbsp;
 
