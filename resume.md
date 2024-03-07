@@ -5,8 +5,8 @@
 
 &nbsp;
 
-> Senior ML engineer with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile teams. I'm looking lead/senior position in a mutlticultural and data driven environment.
-> About me : I am a product-oriented nerd with a teamplayer mindset, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.
+> Senior ML engineer. I'm looking senior/lead position in a mutlticultural and product driven environment.
+> About me : I am a data nerd with high work ethics, my favorite perks in the job are the needed creativity and abstraction during model design and deployement.
 >  Also I love to code, coffee and comics (order may vary).
 
 
@@ -28,10 +28,14 @@ Car and motorcycle driving licenses.                                            
 
 
 
-#### Helsing Gmbh  ![cap](assets/cap.png) AI research engineer ![calendar](assets/calendar.png) 2021 - 2022
+#### Helsing (France)  ![cap](assets/cap.png) AI research engineer ![calendar](assets/calendar.png) 2021 - 2022
 
+> Working as an AIRE from research to model deployment on the edge (work is hereby described in accordance to an NDA)
 
-
+* Vision: designed or improved models for video detection, reidentification, user defined single object tracking and tracking of small objects (in both long ans short-lived contexts) 
+* Time series: worked on identification models in an open set context for radar data (long range time series)
+* Misc: worked on fleet path-planning and GNSS data, worked on quantization and improving throughput of on teh edge models
+stack: `python, rust, k8s, AWS, azure, jetson`
 
 
 
@@ -81,7 +85,7 @@ stack: `python, docker, k8s, azure`
 * Misc.:  
     - premium pricing (based on GNSS data)
     - running the AI reading group
-stack: `python, R, pySpark, docker, k8s, azure`
+stack: `python, R, Spark, SAS, docker, k8s, azure`
 
 
 #### Poitiers University (France) ![cap](assets/cap.png) Machine Learning TA ![calendar](assets/calendar.png) 2017 - 2019
@@ -102,7 +106,7 @@ stack: `python, R`
 ### ![tools](assets/tools.png) Hard skills & extra curriculum ![gear](assets/gear.png)
 
 **Hackathons**
-:   **Hackathon IMA 2019**: top 1, NLP, Vision
+:   **Hackathon IMA 2019**: top 1, NLP
     **AfLPC x LineUp7 2020**: top 2, Vision
     **MagNet 2021**: top 4%, Time Series
 
@@ -113,7 +117,7 @@ stack: `python, R`
 **Languages**: `Python, R, rust, SAS`
 **Spoken Languages**: `English, Français, Deutsch (notions), 日本語 (notions)`
 **Frameworks**: `pytorch, tensorflow, Apache Spark`
-**Cloud**: `AWS, Azure`
+**Cloud**: `AWS, azure`
 **Basics**: `linux, git, redis, MongoDB, SQL`
 **Ops**: `k8s, nomad, ansible`
 
