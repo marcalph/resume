@@ -10,8 +10,7 @@
 >  Also I love to code, coffee and comics (order may vary).
 
 
-###### #NLP #CV #federatedlearning
-
+###### #NLP #CV #TimeSeries
 
 &nbsp;
 &nbsp;
@@ -28,43 +27,55 @@ Car and motorcycle driving licenses.                                            
 
 
 
-#### Jus Mundi
+
+#### Helsing Gmbh  ![cap](assets/cap.png) AI research engineer ![calendar](assets/calendar.png) 2021 - 2022
 
 
 
 
 
-#### CGI ![cap](assets/cap.png) Data Scientist Consultant ![calendar](assets/calendar.png) 2018 - 2021
+
+#### Jus Mundi  ![cap](assets/cap.png) Lead ML engineer ![calendar](assets/calendar.png) 2021 - 2022
+
+> Led a team of 6 data scientists and engineers building tailored models leveradging LLMs to serve enhanced legal decisions to our users
+
+* NLP: Designed an LLM based pseudo-anonymisation pipeline, worked on identifying cross documents citations of legal objects (POI, documents, etc.), build a judiciary reasoning extraction from court documents, introduced an S4 research effort to mitigate long range context (>200 pages documents).
+* Misc.: designed a containerised ML training pipeline using France's largest HPC cluster
+stack: `python, MLFlow, nomad, k8s`
+
+
+
+
+#### CGI ![cap](assets/cap.png) Consultant ![calendar](assets/calendar.png) 2018 - 2021
 
 > Acting as AI Manager for the agency while contributing to various client projects.
 
-##### Airbus - Deep Learning Engineer Consultant:
+##### Airbus - Deep learning engineer:
 
-* NLP: Review contracts
+* NLP: Developped models to review legal contracts
+stack: `python, k8s, redis`
 
-
-##### IMA - Data Scientist Consultant:
+##### IMA - Data scientist consultant:
 
 * NLP, Speech: combined ASR/STT to various in-house NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents;
-* Vision: worked on vehicle classification and cost of repair estimation
+* Vision: worked on vehicle classification and cost of repair estimation (based on photos and videos)
 stack: `python, go, docker`
 
 
-##### MACIF - Deep Learning Engineer Consultant:
+##### MACIF - Deep learning engineer consultant:
 
 * NLP: created models for all of the company's text data (routing/classification, named entity recognition, sentiment analysis), served in a chatbot-like fashion to over 4.3M users monthly
 * Vision: worked on OCR for compliance (identity and claim provision)
 * Misc.: 
     - build an API gateway for all NLP services in the company
-    - build an automatic retraining and evaluation pipeline for modelsusing an online user's feedback loop (active learning, multitask-learning)
-    - running the AI reading group
+    - build an automatic retraining and online evaluation pipeline for modelsusing an online user's feedback loop (active learning, multitask-learning)
 stack: `python, docker, k8s, azure`
 
 #### MAIF ![cap](assets/cap.png) Data scientist ![calendar](assets/calendar.png) 2014 - 2018
 
-> Bring to the various departments the required expertise in statistical learning while conceiving the future tools to serve the MAIF ecosystem.
+> Bring to the various teams the required expertise in statistical learning while conceiving the future tools to serve the company ecosystem.
 
-* NLP: designed a multi-modal language model for email classification, summarization and automatic answering, later open sourced as part of `Mélusine`
+* NLP: designed a multi-modal language model for email classification, summarization and automatic answering, open sourced as [Mélusine](https://github.com/MAIF/melusine)
 * Vision: improved models to identifiy under-insured assets based on satellite data
 * TimeSeries: various work on predicting load for call centers, predicting financial rentability of a portfolio
 * Misc.:  
@@ -73,13 +84,14 @@ stack: `python, docker, k8s, azure`
 stack: `python, R, pySpark, docker, k8s, azure`
 
 
-#### Poitiers University ![cap](assets/cap.png) Machine Learning TA ![calendar](assets/calendar.png) 2017 - 2019
+#### Poitiers University (France) ![cap](assets/cap.png) Machine Learning TA ![calendar](assets/calendar.png) 2017 - 2019
 
 > Introduce  grad students to machine learning
 
 * Syllabus: decision theory, regression, SVM, CART, random forests, MLP and convolutionnal neural networks.
+stack: `python, R`
 
-#### MAPA ![cap](assets/cap.png) Statistician ![calendar](assets/calendar.png) 2013 - 2014
+#### MAPA (France) ![cap](assets/cap.png) Statistician ![calendar](assets/calendar.png) 2013 - 2014
 
 > Analyze and explain pricing drifts, price elasticity and financial performance.
 
@@ -90,11 +102,11 @@ stack: `python, R, pySpark, docker, k8s, azure`
 ### ![tools](assets/tools.png) Hard skills & extra curriculum ![gear](assets/gear.png)
 
 **Hackathons**
-:   **Hackathon IMA**: top 1, NLP, Vision
-    **AfLPC x LineUp7**: top 2, Vision
-    **MagNet**: top 4%, Time Series
+:   **Hackathon IMA 2019**: top 1, NLP, Vision
+    **AfLPC x LineUp7 2020**: top 2, Vision
+    **MagNet 2021**: top 4%, Time Series
 
-
+**Oepn
 
 &nbsp;
 
