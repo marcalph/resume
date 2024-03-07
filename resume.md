@@ -5,8 +5,8 @@
 
 &nbsp;
 
-> Senior ML engineer. I'm looking senior/lead position in a mutlticultural and product driven environment.
-> About me : I am a data nerd with high work ethics, my favorite perks in the job are the needed creativity and abstraction during model design and deployement.
+> Senior ML engineer. I'm looking senior/lead position in a mutlticultural and product driven environment. I love a challenge.
+> About me : I am a data nerd with high work ethics, my favorite perks in the job are the needed creativity during model design and deployment.
 >  Also I love to code, coffee and comics (order may vary).
 
 
