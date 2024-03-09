@@ -35,19 +35,11 @@ h1 {
 
 blockquote{
     color: #626262;
-    text-align: center;
+    text-align: left;
     font-size:1em;
     margin:auto;
 }
 
-h6  {
-    color: #2a5091;
-    margin:auto;
-    width: 100%;
-    margin-top: 1em;
-    text-align: center;
-    font-size:1em;
-}
 
 blockquote h2{
     color: #626262;
@@ -62,7 +54,7 @@ h2 {
 
 h3 {
     color: #2a5091;
-    text-align: center;
+    text-align: left;
     margin-top: 0px;
 }
 
@@ -143,9 +135,10 @@ li strong {
 
 
 table {
-    margin:auto;
-    width: 90%;
-}
+    width:70%; 
+    margin-left:20%; 
+    margin-right:10%;
+  }
 
 td{
     text-align: justify;

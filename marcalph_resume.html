@@ -5,11 +5,167 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>my resume</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css">
   /*
@@ -22,7 +178,7 @@
       width:15px;
       margin-left:1%;
   }
-  
+
   body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       max-width: 800px;
@@ -30,7 +186,7 @@
       background: #FFFFFF;
       padding: 10px 10px 10px 10px;
   }
-  
+
   hr {
       height:0px;
       border-radius: 1px;
@@ -39,66 +195,58 @@
       width: 100%;
       margin-top:3%
     }
-  
+
   h1 {
       font-size: 55px;
       color: #5b5b5b;
       /* text-align:center; */
   }
-  
+
   blockquote{
       color: #626262;
-      text-align: center;
+      text-align: left;
       font-size:1em;
       margin:auto;
   }
-  
-  h6  {
-      color: #2a5091;
-      margin:auto;
-      width: 100%;
-      margin-top: 1em;
-      text-align: center;
-      font-size:1em;
-  }
-  
+
+
   blockquote h2{
       color: #626262;
       text-align: center;
       font-size:2em;
   }
-  
+
   h2 {
       color: #2a5091;
       text-align: center;
   }
-  
+
   h3 {
       color: #2a5091;
-      text-align: center;
+      text-align: left;
       margin-top: 0px;
   }
-  
+
   h4 {
       font-size:1.2em;
       margin-top:5%
   }
-  
+
   h5 {
       margin-bottom: 10px;
   }
-  
+
   ul {
       margin-top: 10px;
-  
+
   }
-  
-  
+
+
   img
   {
       width:18px;
   }
-  
+
   /* Definitions */
   dl {
       display: flex;
@@ -113,7 +261,7 @@
   dd {
       flex-basis: 70%;
       margin-top:10px;
-  
+
   }
   ul {
       margin-bottom: 0;
@@ -122,72 +270,71 @@
       margin:auto;
       margin-top:5px;
   }
-  
-  
-  
+
+
+
   /* Links */
   a {
       text-decoration: underline;
       color: #2a5091;
   }
-  
+
   a:hover, a:active {
       background-color: #2a5091;
       color: #FFFFFF;
       text-decoration: underline;
       text-shadow: 1px 1px 1px #333;
   }
-  
-  
+
+
   code {
       color: #b47921;
   }
-  
+
   em {
       font-style: normal;
       font-size: 0.9em;
   }
-  
+
   li strong {
       font-style: normal;
       font-size: 0.9em;
   }
-  
-  
-  
+
+
+
   table {
-      margin:auto;
-      width: 90%;
-  }
-  
+      width:70%; 
+      margin-left:20%; 
+      margin-right:10%;
+    }
+
   td{
       text-align: justify;
   }
-  
-  
+
+
   </style>
 </head>
 <body>
 <blockquote>
 <h2 id="marc-alphonsus">Marc ALPHONSUS</h2>
 </blockquote>
-<h2 id="machine-learning-engineer-8-years-of-experience">Machine Learning Engineer, 8+ years of experience</h2>
-<p> </p>
-<blockquote>
-<p>Senior data scientist with a portfolio ranging from scoring to fraud detection, with experience in image recognition and language modeling in agile and data driven environments. I’m looking for either a Tech Lead role in a team of Data Scientists or a senior Data Scientist position. About me : I am a product-oriented data nerd with a teamplayer mindset infused to the devops philosophy, my favorite perks in the job are the needed creativity and abstraction during model design and industrialization.<br />
-If any, my expertise revolves aroung Deep Learning in particular NLP and reinforcement learning. Also I love code, kaggle, coffee and comics (order may vary).</p>
-</blockquote>
-<h6 id="nlp-activelearning-cv-eli5-rl-federatedlearning">#NLP #activelearning #CV #eli5 #RL #federatedlearning</h6>
-<p>   </p>
+<h2 id="senior-machine-learning-engineer">Senior Machine Learning
+Engineer</h2>
 <table>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Niort, France</td>
+<td style="text-align: left;">Paris, France</td>
 <td style="text-align: right;">alphonsus.marc@gmail.com</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">32 ans, french</td>
-<td style="text-align: right;"><a href="http://linkedin.com/in/marc-alphonsus">linkedin<img src="assets/linkedin.png" alt="link" /></a> / <a href="https://github.com/marcalph">github<img src="assets/github.png" alt="link" /></a></td>
+<td style="text-align: left;">35 years, french</td>
+<td style="text-align: right;"><a
+href="http://linkedin.com/in/marc-alphonsus">linkedin<img
+src="assets/linkedin.png" alt="link" /></a> / <a
+href="https://github.com/marcalph">github<img src="assets/github.png"
+alt="link" /></a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Car and motorcycle driving licenses.</td>
@@ -195,97 +342,181 @@ If any, my expertise revolves aroung Deep Learning in particular NLP and reinfor
 </tr>
 </tbody>
 </table>
+<blockquote>
+<p>Senior ML engineer with 9+ YoE. I’m looking for a senior/lead
+position in a mutlticultural and product driven environment. About me :
+I am a data nerd with high work ethics, my favorite perks in the job are
+the needed creativity during model design and deployment.<br />
+Also I love to code, coffee and comics (order may vary).</p>
+</blockquote>
 <hr />
-<h3 id="dchart-experience-uchart"><img src="assets/downward_chart.png" alt="dchart" /> Experience <img src="assets/upward_chart.png" alt="uchart" /></h3>
-<h4 id="cgi-cap-lead-data-science-calendar-2018---2021">CGI <img src="assets/cap.png" alt="cap" /> Lead Data Science <img src="assets/calendar.png" alt="calendar" /> 2018 - 2021</h4>
+<h3 id="experience-uchart">Experience <img src="assets/upward_chart.png"
+alt="uchart" /></h3>
+<h4
+id="helsing-france-uk-cap-ai-research-engineer-calendar-2021---2022">Helsing
+(France, UK) <img src="assets/cap.png" alt="cap" /> AI research engineer
+<img src="assets/calendar.png" alt="calendar" /> 2021 - 2022</h4>
 <blockquote>
-<p>Manage the AI lab agency while offering a window to our projects and skills Machine Learning wise. Define and build the data strategy of my clients.</p>
+<p>Working as an AIRE from research to model deployment on the edge
+(work is hereby described in accordance to an NDA)</p>
 </blockquote>
-<h5 id="ima">IMA :</h5>
 <ul>
-<li>Assist+: <em>PoC for a AI phone assistant - combined ASR/STT and various NLP models (NER, Classification, Semantic Similarity) to better the assistance process when facing car failures and accidents</em>;<br />
+<li>Vision: designed or improved models for video detection, video
+reidentification, user defined single object tracking and tracking of
+small objects (in both long and short-lived contexts)<br />
 </li>
-<li>Process : Speech transcription, vehicle identification, geolocalization, failure understanding from client’s description, services (motor mechanic, taxi, hotel…) &amp; SMS recap &gt; <code>pytorch, Go, docker</code></li>
-</ul>
-<h5 id="macif">MACIF :</h5>
+<li>Time series: worked on classfication and reidentification models in
+an open set context for long range radar data<br />
+</li>
+<li>Misc:
 <ul>
-<li>Macif NLP: <em>created models for all Macif’s textual content (routing/classification, named entity recognition, sentiment analysis)- bumped up the performance from 85% over 3 classes to </em> <strong>92% over 56 classes</strong> &gt; <code>Tensorflow, Huggingface transformers, spacy, docker</code></li>
-<li>Hub IA: <em>built the group’s AI services platform, monitored and secure, as a swagger API catalog callable by every employee</em> &gt; <code>WSGI, Flask, FastAPI, Docker, Kubernetes</code></li>
-<li>AutoML Workflow : <em>assembled an automatic AI retrain pipeline (similar to <code>MLFlow</code>) - Models are being automaticly retrained with new incoming data fed thanks to an users feedback loop (active learning, multitask-learning)</em> &gt; <code>python, gitlab CI, Docker</code></li>
-<li>RAD/LAD: <em>constructed a service for analyzing documents (classification &amp; OCR) before storage</em> <strong>95% over 80 classes</strong> &gt; <code>pytorch, Docker</code></li>
-<li>MeetUps: <em>defined the Data strategy at the departement level &amp; AI evangelization for the whole company</em> <code>OKR, Gslides, Jupyter, Streamlit</code></li>
-<li>Chatbot EPI: <em>redesinged the UX of the online member space (4.3 M users) - the deployment of AI models allowed to meet key objectives while modernizing the overall architecture</em> &gt; <code>Tensorflow, spacy, rasa</code></li>
+<li>worked on drone fleet path-planning and GNSS data</li>
+<li>did quantization and improving throughput of edge depoloyed
+models<br />
+stack: <code>python, rust, k8s, AWS, azure, jetson</code></li>
+</ul></li>
 </ul>
-<h5 id="cgi---ai-lab">CGI - AI Lab :</h5>
-<ul>
-<li>Project management &amp; mentoring</li>
-<li>SOTA and technological monitoring</li>
-<li>Conferences, ELI5</li>
-</ul>
-<h4 id="maif-cap-data-scientist-calendar-2014---2018">MAIF <img src="assets/cap.png" alt="cap" /> Data scientist <img src="assets/calendar.png" alt="calendar" /> 2014 - 2018</h4>
+<h4 id="jus-mundi-france-cap-lead-ml-engineer-calendar-2021---2022">Jus
+Mundi (France) <img src="assets/cap.png" alt="cap" /> lead ML engineer
+<img src="assets/calendar.png" alt="calendar" /> 2021 - 2022</h4>
 <blockquote>
-<p>Bring to the various Departments funding the corresponding data projects the required expertise in statistical learning while conceiving the future tools to serve the MAIF members.</p>
+<p>Led a team of 6 data scientists and engineers building tailored
+models leveradging LLMs to serve enhanced legal decisions to our
+users</p>
 </blockquote>
 <ul>
-<li>Mail: <em>Automatic routing of e-mails &amp; summarization, open sourced as</em> <a href="https://github.com/MAIF/melusine">Mélusine</a> <em>; design of neural architectures and extractives summarization algorithms</em> &gt; <code>tensorfow, pySpark, scikit-learn, docker</code></li>
-<li>MAIF &amp; Go: <em>Claim pricing based on driving behaviours obtained by GPS trackers (IoT beacon &amp; mobile app)</em> &gt; <code>pySpark, R, caret</code></li>
-<li>Valeur Sociétaire: * Modeling of expected rentability for customers on a large temporal horizon (LifeTime Value)* &gt; <code>pySpark, Hadoop Map/Reduce</code></li>
-<li>Téléphonie: <em>Predict the phonecall load to correctly size call centers HR wise</em> <strong>5% error, publication proposal</strong> &gt; <code>R, caret</code></li>
-<li>risk: <em>Identity under-insured risks</em> &gt; <code>scikit-learn</code></li>
+<li>NLP: Designed an LLM based pseudo-anonymisation pipeline, worked on
+identifying cross documents citations of legal objects (POI, documents,
+etc.), build a judiciary reasoning extraction from court documents,
+introduced an S4 research effort to mitigate long range context (&gt;200
+pages documents).<br />
+</li>
+<li>Misc.: designed a containerised ML training pipeline using France’s
+largest HPC cluster<br />
+stack: <code>python, MLFlow, nomad, k8s</code></li>
 </ul>
-<h4 id="poitiers-university-cap-machine-learning-ta-calendar-2017---2019">Poitiers University <img src="assets/cap.png" alt="cap" /> Machine Learning TA <img src="assets/calendar.png" alt="calendar" /> 2017 - 2019</h4>
+<h4 id="cgi-cap-consultant-calendar-2018---2021">CGI <img
+src="assets/cap.png" alt="cap" /> consultant <img
+src="assets/calendar.png" alt="calendar" /> 2018 - 2021</h4>
+<blockquote>
+<p>Acting as AI Manager for the agency while contributing to various
+client projects as a consultant.</p>
+</blockquote>
+<h5 id="airbus---deep-learning-engineer">Airbus - deep learning
+engineer:</h5>
+<ul>
+<li>NLP: Developped models to review legal contracts<br />
+stack: <code>python, k8s, redis</code></li>
+</ul>
+<h5 id="ima---data-scientist">IMA - data scientist:</h5>
+<ul>
+<li>NLP, Speech: combined ASR/STT to various in-house NLP models (NER,
+Classification, Semantic Similarity) to better the assistance process
+when facing car failures and accidents;</li>
+<li>Vision: worked on vehicle classification and cost of repair
+estimation stack: <code>python, go, docker</code></li>
+</ul>
+<h5 id="macif---deep-learning-engineer">MACIF - deep learning
+engineer:</h5>
+<ul>
+<li>NLP: created models for all of the company’s text data
+(routing/classification, named entity recognition, sentiment analysis),
+served in a chatbot-like fashion to over 4.3M users monthly<br />
+</li>
+<li>Vision: worked on OCR for compliance (identity and claim
+provision)<br />
+</li>
+<li>Misc.:
+<ul>
+<li>build an API gateway for all NLP services in the company</li>
+<li>build an automatic retraining and online evaluation pipeline for
+modelsusing an online user’s feedback loop (active learning,
+multitask-learning) stack: <code>python, docker, k8s, azure</code></li>
+</ul></li>
+</ul>
+<h4 id="maif-cap-data-scientist-calendar-2014---2018">MAIF <img
+src="assets/cap.png" alt="cap" /> data scientist <img
+src="assets/calendar.png" alt="calendar" /> 2014 - 2018</h4>
+<blockquote>
+<p>Bring to the various teams the required expertise in statistical
+learning while conceiving the future tools to serve the company
+ecosystem.</p>
+</blockquote>
+<ul>
+<li>NLP: designed a multi-modal language model for email classification,
+summarization and automatic answering, open sourced as <a
+href="https://github.com/MAIF/melusine">Mélusine</a><br />
+</li>
+<li>Vision: improved models to identifiy under-insured assets based on
+satellite data</li>
+<li>TimeSeries: various work on predicting load for call centers,
+predicting financial rentability of a portfolio</li>
+<li>Misc.:
+<ul>
+<li>premium pricing (based on GNSS data)</li>
+<li>running the AI reading group<br />
+stack: <code>python, R, Spark, SAS, docker, k8s, azure</code></li>
+</ul></li>
+</ul>
+<h4
+id="poitiers-university-france-cap-ta-machine-learning-calendar-2017---2019">Poitiers
+University (France) <img src="assets/cap.png" alt="cap" /> TA machine
+learning <img src="assets/calendar.png" alt="calendar" /> 2017 -
+2019</h4>
 <blockquote>
 <p>Introduce grad students to machine learning</p>
 </blockquote>
 <ul>
-<li>Syllabus: decision theory, regression, SVM, CART, random forests, MLP and convolutionnal neural networks.</li>
+<li>Syllabus: decision theory, regression, SVM, CART, random forests,
+MLP and convolutionnal neural networks.<br />
+stack: <code>python, R</code></li>
 </ul>
-<h4 id="mapa-cap-statistician-calendar-2013---2014">MAPA <img src="assets/cap.png" alt="cap" /> Statistician <img src="assets/calendar.png" alt="calendar" /> 2013 - 2014</h4>
+<h4 id="mapa-france-cap-statistician-calendar-2013---2014">MAPA (France)
+<img src="assets/cap.png" alt="cap" /> statistician <img
+src="assets/calendar.png" alt="calendar" /> 2013 - 2014</h4>
 <blockquote>
-<p>Analyze and explain pricing drifts, price elasticity and financial performance.</p>
+<p>Analyze and explain pricing drifts, price elasticity and financial
+performance.</p>
 </blockquote>
 <p> </p>
 <hr />
-<h3 id="tools-hard-skills-extra-curriculum-gear"><img src="assets/tools.png" alt="tools" /> Hard skills &amp; extra curriculum <img src="assets/gear.png" alt="gear" /></h3>
+<h3 id="hard-skills-extra-curriculum-tools">Hard skills &amp; extra
+curriculum <img src="assets/tools.png" alt="tools" /></h3>
 <dl>
-<dt><strong>Chosen projects</strong></dt>
-<dd><strong>TextNets/text</strong>: My own models and tests regarding SOTA NLP, paper replication, open source model training, semantic similarity, automatic summarization, transduction, search…<br />
-<strong>DeepCount</strong>: Crowd counting with density mapping on highly populated images (think football game)
-</dd>
 <dt><strong>Hackathons</strong></dt>
-<dd><strong>Hackathon IMA</strong>: top 1, 8000$<br />
-<strong>AfLPC x LineUp7</strong>: top 2, #dataforgood
+<dd>
+<strong>IMA 2019</strong>: top 1, NLP<br />
+<strong>AfLPC x LineUp7 2020</strong>: top 2, Vision<br />
+<strong>MagNet 2021</strong>: top 4%, Time Series
 </dd>
 </dl>
 <p> </p>
-<p><strong>Languages</strong>: <code>Python, R, Go, SAS</code><br />
-<strong>Spoken Languages</strong>: <code>English, Français, Deutsch, 日本語 (notions)</code><br />
-<strong>Frameworks</strong>: <code>pytorch, tensorflow, scikit-learn, Apache Spark, Hadoop, opengym</code><br />
-<strong>Cloud</strong>: <code>AWS, GCP</code><br />
-<strong>Basics</strong>: <code>UNIX, algorithms, git, gitlab-ci, Docker, Kubernetes, redis, MongoDB, SQL</code></p>
+<p><strong>Languages</strong>: <code>Python, R, rust, SAS</code><br />
+<strong>Spoken Languages</strong>:
+<code>English, Français, Deutsch (notions), 日本語 (notions)</code><br />
+<strong>Frameworks</strong>:
+<code>pytorch, tensorflow, Apache Spark</code><br />
+<strong>Cloud</strong>: <code>AWS, azure</code><br />
+<strong>Basics</strong>:
+<code>linux, git, redis, MongoDB, SQL</code><br />
+<strong>Ops</strong>: <code>k8s, nomad, ansible</code></p>
 <p>   </p>
 <hr />
-<h3 id="book-education-training-graduation_cap"><img src="assets/book.png" alt="book" /> Education &amp; Training <img src="assets/graduation_cap.png" alt="graduation_cap" /></h3>
+<h3 id="education-training-graduation_cap">Education &amp; Training <img
+src="assets/graduation_cap.png" alt="graduation_cap" /></h3>
 <dl>
-<dt><strong>2020</strong></dt>
-<dd><strong>Spinning up Reinforcement Learning</strong>; OpenAI<br />
-<strong>6.S094</strong>; MIT
-</dd>
-<dt><strong>2018</strong></dt>
-<dd><strong>CS224n, CS229, CS231n</strong>; Stanford University
-</dd>
 <dt><strong>2017</strong></dt>
-<dd><strong>Deep Learning Specialization</strong>; Deeplearning.ai x Coursera
-</dd>
-<dt><strong>2014</strong></dt>
-<dd><strong>Machine Learning</strong>; Stanford University x Coursera<br />
-<strong>Deep Learning</strong>; Google x Udacity
+<dd>
+<strong>Deep Learning Specialization</strong>; Deeplearning.ai x
+Coursera
 </dd>
 <dt><strong>2013</strong></dt>
-<dd><strong>MSc, Statistics</strong>; Université de Poitiers
+<dd>
+<strong>MSc, Statistics</strong>; Université de Poitiers
 </dd>
 <dt><strong>2010</strong></dt>
-<dd><strong>Bachelor, Mathematics and Computer Science</strong>; Université Paris V
+<dd>
+<strong>Bachelor, Mathematics</strong>; Université de Paris
 </dd>
 </dl>
 </body>
